@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+  <!-- TemplateBeginEditable name="doctitle" -->
+ADD PAGE TITLE
+  <!-- TemplateEndEditable -->
+  </title>
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
+   <!-- Custom CSS-->
+  <link href="../css/custom.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  <!--------------- START TEMPLATE PARAMETERS ------------------------>
+  <!-- TemplateParam name="course_long_name" type="text" value="My DW Template Course" -->
+  <!-- TemplateParam name="course_name_subheading" type="text" value="Another Creation" -->
+  <!-- TemplateParam name="lesson_name" type="text" value="DW Lesson 1 : Getting Started" -->
+  <!-- TemplateParam name="topic_title" type="text" value=" Topic 1 : Configuring Your Course" -->
+  <!-- TemplateParam name="page_number" type="text" value="Page 1" -->
+  <!--------------- END TEMPLATE PARAMETERS ------------------------>
+ 
+  </head>
+  <body>
+    
+  
+   
+    <div class="container-fluid">
+		<div class=" row animated fadeIn delay-1s fadeInDown delay-1s">
+		  <div class="col-md-8">
+			  <header><h1 class="course_name ">@@(course_long_name)@@ </h1>
+		    <h2 class="lead course_subheading">@@(course_name_subheading)@@</h2></header>
+		  </div>
+			<div class="col-md-4"><!-- TemplateBeginEditable name="Course Logo" -->ADD COURSE LOGO<!-- TemplateEndEditable -->
+		    
+			</div>
+	  </div>
+			<hr class="fading_green animated fadeInLeftBig delay-2s">
+			
+			<div class="row">
+		<div class="col-md-12">	  
+			  <nav aria-label="breadcrumb">
+			    <ol class="breadcrumb animated fadeInLeftBig delay-2s">
+			      <li class="breadcrumb-item"><a href="#">@@(lesson_name)@@</a></li>
+			      <li class="breadcrumb-item"><a href="#">@@(topic_title)@@</a></li>
+			      <li class="breadcrumb-item active" aria-current="page">@@(page_number)@@</li>
+		        </ol>
+	        </nav>
+            </div>
+		
+		
+		</div>
+		
+		 <div class="row animated fadeInDown delay-3s">
+        <div class="col-md-8">
+			<h3 class="headline"><!-- TemplateBeginEditable name="Course Headline" -->ADD COURSE HEADLINE HERE<!-- TemplateEndEditable --> </h3>
+			 </div>
+          <div class="col-md-4">
+			    <div class="pagenumber" id="pagenumber"><!-- TemplateBeginEditable name="PageNofX" -->@@page_number of X<!-- TemplateEndEditable --></div>
+			 </div>
+		</div>
+       
+      <div class="row animated fadeInDown delay-4s">
+        <div class="col-md-4">
+
+          <!-- TemplateBeginEditable name="Left Content" -->
+		  ADD LEFT CONTENT HERE
+		  <!-- TemplateEndEditable --> 
+		  </div>
+          <div class="col-md-8">
+			  <!-- TemplateBeginEditable name="Main Content" -->
+			  ADD MAIN CONTENT HERE
+			  <!-- TemplateEndEditable -->
+           
+        </div>
+      </div>
+  
+           
+      <div class="row">
+         <div class="col-md-12">
+			 <!-- TemplateBeginEditable name="Footer" -->
+			 ADD FOOTER HERE
+			 <!-- TemplateEndEditable -->
+             
+            
+          </div>
+       </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="../js/jquery-3.3.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>

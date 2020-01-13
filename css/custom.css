@@ -1,0 +1,91 @@
+/* Custom CSS */
+
+/*Course Heading */
+
+.course_name {
+	color: #636363;
+	font-weight: bold;
+	text-shadow: 4px 4px 8px #999999;
+	
+}
+
+.course_subheading {
+	color: #999999;
+	text-shadow: 3px 3px 6px #999999;
+	font-weight: normal;
+}
+
+/* Horizontal Bar*/
+
+.fading_green {
+
+height: 1px;
+width: 100%;
+background: rgb(2,0,36);
+background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(126,157,31,1) 13%, rgba(0,212,255,0.23853291316526615) 100%);
+background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(126,157,31,1) 13%, rgba(0,212,255,0.23853291316526615) 100%);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(126,157,31,1) 13%, rgba(0,212,255,0.23853291316526615) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+	
+}
+
+/* Breadcrumbs */
+
+.breadcrumb {
+	font-size: 0.7em;
+	color: #666666;
+	font-style: italic;
+	background: transparent;
+
+		}
+	.breadcrumb a {
+	text-decoration: none;
+	color: #666666;
+	font-weight: normal;
+}
+	.breadcrumb a:hover {
+	color: #0066FF;
+	text-decoration: none;
+	font-weight: normal;
+}
+	.breadcrumb .current {}
+
+
+/* Course Headline */
+
+.headline {
+	
+	font-size: 16px;
+	color: #3366FF;
+	font-weight: bold;
+}
+
+
+.subheadline {
+	
+	font-size: 14px;
+	font-weight: bold;
+	color: #376705;
+}
+
+
+.narrow {
+ 
+   font-size: 95%;
+   color: #2C2E3D;
+}   
+
+/* Spacer */
+
+.spacer {
+display: flex;
+flex-grow: 1;		
+}
+
+
+/* Page Numbers */
+
+.pagenumber {
+	font-size: 0.7em;
+	color: #333333;
+}
