@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
   <!-- TemplateBeginEditable name="doctitle" -->
-ADD PAGE TITLE
+R306 - Medical Needs Sheltering
   <!-- TemplateEndEditable -->
   </title>
   <!-- Bootstrap -->
@@ -17,25 +17,22 @@ ADD PAGE TITLE
   <!-- TemplateBeginEditable name="head" -->
   <!-- TemplateEndEditable -->
   <!--------------- START TEMPLATE PARAMETERS ------------------------>
-  <!-- TemplateParam name="course_long_name" type="text" value="My DW Template Course" -->
-  <!-- TemplateParam name="course_name_subheading" type="text" value="Another Creation" -->
-  <!-- TemplateParam name="lesson_name" type="text" value="DW Lesson 1 : Getting Started" -->
-  <!-- TemplateParam name="topic_title" type="text" value=" Topic 1 : Configuring Your Course" -->
-  <!-- TemplateParam name="page_number" type="text" value="Page 1" -->
+  <!-- TemplateParam name="course_long_name" type="text" value="R306 - Medical Needs Sheltering" -->
+  <!-- TemplateParam name="course_name_subheading" type="text" value="R306-MNS" -->
   <!--------------- END TEMPLATE PARAMETERS ------------------------>
  
+	 
   </head>
   <body>
     
-  
-   
+
     <div class="container-fluid">
 		<div class=" row animated fadeIn delay-1s fadeInDown delay-1s">
 		  <div class="col-md-8">
-			  <header><h1 class="course_name ">@@(course_long_name)@@ </h1>
-		    <h2 class="lead course_subheading">@@(course_name_subheading)@@</h2></header>
+			  <header>  <h1 class="course_long_name">@@(course_long_name)@@ </h1>
+		     <h2 class="lead course_name_subheading">@@(course_name_subheading)@@</h2></header>
 		  </div>
-			<div class="col-md-4"><!-- TemplateBeginEditable name="Course Logo" -->ADD COURSE LOGO<!-- TemplateEndEditable -->
+			<div class="col-md-4"><!-- TemplateBeginEditable name="Course Logo" --><img src="../images/TU_logo_school.png" width="342" height="74" alt=""/><!-- TemplateEndEditable -->
 		    
 			</div>
 	  </div>
@@ -45,15 +42,16 @@ ADD PAGE TITLE
 		<div class="col-md-12">	  
 			  <nav aria-label="breadcrumb">
 			    <ol class="breadcrumb animated fadeInLeftBig delay-2s">
-			      <li class="breadcrumb-item"><a href="#">@@(lesson_name)@@</a></li>
-			      <li class="breadcrumb-item"><a href="#">@@(topic_title)@@</a></li>
-			      <li class="breadcrumb-item active" aria-current="page">@@(page_number)@@</li>
+			      <li class="breadcrumb-item"><a href="#"><!-- TemplateBeginEditable name="lesson_name" -->ADD LESSON NAME<!-- TemplateEndEditable --></a></li>
+			      <li class="breadcrumb-item"><a href="#"><!-- TemplateBeginEditable name="topic_title" -->ADD TOPIC TTLE <!-- TemplateEndEditable --></a></li>
+			      <li class="breadcrumb-item active" aria-current="page"><!-- TemplateBeginEditable name="page_number" -->ADD PAGE NUMBER<!-- TemplateEndEditable --></li>
 		        </ol>
 	        </nav>
             </div>
 		
 		
 		</div>
+		
 		
 		 <div class="row animated fadeInDown delay-3s">
         <div class="col-md-8">
