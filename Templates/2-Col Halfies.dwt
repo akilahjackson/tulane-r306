@@ -4,30 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
   <title>
-   <!-- TemplateBeginEditable name="doctitle" -->
-R306 - Medical Needs Sheltering
-  <!-- TemplateEndEditable -->
+R306 - Medical Needs Sheltering 
   </title>
-  <!-- Bootstrap -->
+
+<!-- Bootstrap -->
   <link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
-   <!-- Custom CSS-->
+<!-- Custom CSS-->
   <link href="../css/custom.css" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <!-- TemplateBeginEditable name="head" -->
   <!-- TemplateEndEditable -->
-  <!--------------- START TEMPLATE PARAMETERS ------------------------>
+<!-- START TEMPLATE PARAMETERS -->
   <!-- TemplateParam name="course_long_name" type="text" value="R306 - Medical Needs Sheltering" -->
   <!-- TemplateParam name="course_name_subheading" type="text" value="R306-MNS" -->
-  <!--------------- END TEMPLATE PARAMETERS ------------------------>
+<!-- END TEMPLATE PARAMETERS -->
  
 	 
   </head>
   <body>
-    
 
     <div class="container-fluid">
-		<div class=" row animated fadeIn delay-1s fadeInDown delay-1s">
+		
+<!--- START COURSE HEADING -->
+		
+		<div class="shadow-sm row animated fadeIn delay-1s fadeInDown delay-1s">
 		  <div class="col-md-8">
 			  <header>  <h1 class="course_long_name">@@(course_long_name)@@ </h1>
 		     <h2 class="lead course_name_subheading">@@(course_name_subheading)@@</h2></header>
@@ -36,12 +38,85 @@ R306 - Medical Needs Sheltering
 		    
 			</div>
 	  </div>
-			<hr class="fading_green animated fadeInLeftBig delay-2s">
 			
+		
+<!--- END COURSE HEADING -->
+		
+<!--- START COURSE NAVIGATION -->
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Course Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="starthere.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="L0_T1_01.html">Course Overview</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Lesson 1 - Intro to MNS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Topic 1 - What is Medical Needs Shelter (MNS) ? </a>
+          <a class="dropdown-item" href="#">Topic 2 - Who is received into a MNS ?</a>
+          <a class="dropdown-item" href="#">Topic 3 - MNS Locations</a>
+			<a class="dropdown-item" href="#">Topic 4 - Activity/Knowledge Check</a>
+        </div>
+      </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Lesson 2 - MNS Team
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Topic 1 - MNS Organizational Chart ? </a>
+          <a class="dropdown-item" href="#">Topic 2 - Non-Medical Job Responsibilities</a>
+          <a class="dropdown-item" href="#">Topic 3 - Medical Job Responsibilities</a>
+			<a class="dropdown-item" href="#">Topic 4 - Activity/Knowledge Check</a>
+        </div>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Lesson 3 - Operations
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Topic 1 - Activation </a>
+          <a class="dropdown-item" href="#">Topic 2 - Special Areas</a>
+          <a class="dropdown-item" href="#">Topic 3 - Triage & Admissions</a>
+			<a class="dropdown-item" href="#">Topic 4 - Important Requirements</a>
+			<a class="dropdown-item" href="#">Topic 5 - Deactivation </a>
+			<a class="dropdown-item" href="#">Topic 6 - Activity/Knowledge Check </a>
+        </div>
+      </li>
+		 <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Lesson 4 - Forms
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Topic 1 - Forms</a>
+          <a class="dropdown-item" href="#">Topic 2 - Activity/Knowledge Check </a>
+        </div>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="L0_T1_01.html">Course Conclusion</a>
+      </li>
+		
+    </ul>
+  </div>
+</nav>
+
+<!--- END COURSE NAVIGATION -->
+<hr class="fading_green animated fadeInLeftBig delay-3s">
+<!--- START BREADCRUMB -->
 			<div class="row">
-		<div class="col-md-12">	  
+			<div class="col-md-12">	  
 			  <nav aria-label="breadcrumb">
-			    <ol class="breadcrumb animated fadeInLeftBig delay-2s">
+			    <ol class="breadcrumb animated fadeInLeftBig delay-3s">
 			      <li class="breadcrumb-item"><a href="#"><!-- TemplateBeginEditable name="lesson_name" -->ADD LESSON NAME<!-- TemplateEndEditable --></a></li>
 			      <li class="breadcrumb-item"><a href="#"><!-- TemplateBeginEditable name="topic_title" -->ADD TOPIC TTLE <!-- TemplateEndEditable --></a></li>
 			      <li class="breadcrumb-item active" aria-current="page"><!-- TemplateBeginEditable name="page_number" -->ADD PAGE NUMBER<!-- TemplateEndEditable --></li>
@@ -51,15 +126,20 @@ R306 - Medical Needs Sheltering
 		
 		
 		</div>
-		
-		 <div class="row animated fadeInDown delay-3s">
+<!--- END BREADCRUMB -->		
+			
+<!--- START HEADLINE -->	
+		 <div class="row animated fadeInDown delay-4s">
         <div class="col-md-8">
 			<h3 class="headline"><!-- TemplateBeginEditable name="Course Headline" -->ADD COURSE HEADLINE HERE<!-- TemplateEndEditable --> </h3>
 			 </div>
           <div class="col-md-4">
-			    <div class="pagenumber" id="pagenumber"><!-- TemplateBeginEditable name="PageNofX" -->@@page_number of X<!-- TemplateEndEditable --></div>
+			    <div class="pageofX" id="pageofX"><!-- TemplateBeginEditable name="PageofX" -->@@page_number of X<!-- TemplateEndEditable --></div>
 			 </div>
 		</div>
+<!--- END HEADLINE -->
+		
+<!--- START MAIN CONTENT -->
 		
         <div class="row animated fadeInDown delay-4s">
         <div class="col-md-6">
@@ -75,17 +155,37 @@ R306 - Medical Needs Sheltering
            
         </div>
       </div>
-      
-           
+  <!--- END MAIN CONTENT -->    
+  <!--- START FOOTER -->          
       <div class="row">
          <div class="col-md-12">
 			 <!-- TemplateBeginEditable name="Footer" -->
-			 ADD FOOTER HERE
+			 <div class="card-deck">
+  <div class="card bg-transparent">
+    <div class="card-body">
+      <h5 class="card-title">MAYBE ADD TULANE LOGO</h5>
+      <p class="card-text"></p>
+    </div>
+  </div>
+  <div class="card bg-transparent">
+    <div class="card-body">
+      <h5 class="card-title">Resources</h5>
+      <p class="card-text"><a  href="L0_T1_01.html">Resources</a></p>
+    </div>
+  </div>
+  <div class="card bg-transparent">
+    <div class="card-body">
+      <h5 class="card-title">Support</h5>
+      <p class="card-text"> <a href="L0_T1_01.html">Help</a></p>
+    </div>
+  </div>
+</div>
 			 <!-- TemplateEndEditable -->
              
             
           </div>
        </div>
+<!--- END FOOTER --> 
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
     <script src="../js/jquery-3.3.1.min.js"></script>

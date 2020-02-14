@@ -105,12 +105,7 @@ R306 - Medical Needs Sheltering
 		<li class="nav-item">
         <a class="nav-link" href="L0_T1_01.html">Course Conclusion</a>
       </li>
-		<li class="nav-item">
-        <a class="nav-link" href="L0_T1_01.html">Resources</a>
-      </li>
-		<li class="nav-item">
-        <a class="nav-link" href="L0_T1_01.html">Help</a>
-      </li>
+	
     </ul>
   </div>
 </nav>
@@ -160,7 +155,26 @@ R306 - Medical Needs Sheltering
       <div class="row animated fadeinUp delay-1s">
          <div class="col-md-12">
 			 <!-- TemplateBeginEditable name="Footer" -->
-			 ADD FOOTER HERE
+			 <div class="card-deck">
+  <div class="card bg-transparent">
+    <div class="card-body">
+      <h5 class="card-title">MAYBE ADD TULANE LOGO</h5>
+      <p class="card-text"></p>
+    </div>
+  </div>
+  <div class="card bg-transparent">
+    <div class="card-body">
+      <h5 class="card-title">Resources</h5>
+      <p class="card-text"><a  href="L0_T1_01.html">Resources</a></p>
+    </div>
+  </div>
+  <div class="card bg-transparent">
+    <div class="card-body">
+      <h5 class="card-title">Support</h5>
+      <p class="card-text"> <a href="L0_T1_01.html">Help</a></p>
+    </div>
+  </div>
+</div>
 			 <!-- TemplateEndEditable -->
              
             
