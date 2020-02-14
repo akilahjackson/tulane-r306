@@ -9,24 +9,26 @@
 R306 - Medical Needs Sheltering
   <!-- TemplateEndEditable -->
   </title>
-  <!-- Bootstrap -->
+<!-- Bootstrap -->
   <link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
-   <!-- Custom CSS-->
+<!-- Custom CSS-->
   <link href="../css/custom.css" rel="stylesheet">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <!-- TemplateBeginEditable name="head" -->
   <!-- TemplateEndEditable -->
-  <!--------------- START TEMPLATE PARAMETERS ------------------------>
+<!-- START TEMPLATE PARAMETERS -->
   <!-- TemplateParam name="course_long_name" type="text" value="R306 - Medical Needs Sheltering" -->
   <!-- TemplateParam name="course_name_subheading" type="text" value="R306-MNS" -->
-  <!--------------- END TEMPLATE PARAMETERS ------------------------>
+<!-- END TEMPLATE PARAMETERS -->
  
 	 
   </head>
   <body>
-    
 
     <div class="container-fluid">
+		
+<!--- START COURSE HEADING -->
+		
 		<div class=" row animated fadeIn delay-1s fadeInDown delay-1s">
 		  <div class="col-md-8">
 			  <header>  <h1 class="course_long_name">@@(course_long_name)@@ </h1>
@@ -37,9 +39,13 @@ R306 - Medical Needs Sheltering
 			</div>
 	  </div>
 			<hr class="fading_green animated fadeInLeftBig delay-2s">
-			
+		
+<!--- END COURSE HEADING -->
+		
+
+<!--- START BREADCRUMB -->
 			<div class="row">
-		<div class="col-md-12">	  
+			<div class="col-md-12">	  
 			  <nav aria-label="breadcrumb">
 			    <ol class="breadcrumb animated fadeInLeftBig delay-2s">
 			      <li class="breadcrumb-item"><a href="#"><!-- TemplateBeginEditable name="lesson_name" -->ADD LESSON NAME<!-- TemplateEndEditable --></a></li>
@@ -51,7 +57,10 @@ R306 - Medical Needs Sheltering
 		
 		
 		</div>
+<!--- END BREADCRUMB -->		
 		
+		
+<!--- START HEADLINE -->	
 		 <div class="row animated fadeInDown delay-3s">
         <div class="col-md-8">
 			<h3 class="headline"><!-- TemplateBeginEditable name="Course Headline" -->ADD COURSE HEADLINE HERE<!-- TemplateEndEditable --> </h3>
@@ -60,7 +69,9 @@ R306 - Medical Needs Sheltering
 			    <div class="pageofX" id="pageofX"><!-- TemplateBeginEditable name="PageofX" -->@@page_number of X<!-- TemplateEndEditable --></div>
 			 </div>
 		</div>
-       
+<!--- END HEADLINE -->
+		
+<!--- START MAIN CONTENT -->
      <div class="row animated fadeInDown delay-4s">
         <div class="col-md-12">
 
@@ -70,8 +81,10 @@ R306 - Medical Needs Sheltering
 		  </div>
 		</div>
   
-           
-      <div class="row">
+ <!--- END MAIN CONTENT --> 
+		
+ <!--- START FOOTER -->  
+      <div class="row animated fadeinUp delay-1s">
          <div class="col-md-12">
 			 <!-- TemplateBeginEditable name="Footer" -->
 			 ADD FOOTER HERE
@@ -80,6 +93,8 @@ R306 - Medical Needs Sheltering
             
           </div>
        </div>
+		
+<!--- END FOOTER --> 
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
     <script src="../js/jquery-3.3.1.min.js"></script>
