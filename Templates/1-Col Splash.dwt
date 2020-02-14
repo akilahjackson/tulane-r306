@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+  <title>
+R306 - Medical Needs Sheltering 
+  </title>
+
+
+<!-- Custom CSS-->
+  <link href="../css/custom.css" rel="stylesheet">
+	  <link href="../css/svg-icons.css" rel="stylesheet">
+	<link href="../css/webslides.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+<!-- START TEMPLATE PARAMETERS -->
+  <!-- TemplateParam name="course_long_name" type="text" value="R306 - Medical Needs Sheltering" -->
+  <!-- TemplateParam name="course_name_subheading" type="text" value="R306-MNS" -->
+<!-- END TEMPLATE PARAMETERS -->
+ 
+	 
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	
+<!--- START MAIN CONTENT -->
+     <div class="row animated fadeInDown delay-4s">
+        <div class="col-md-12">
+
+          <!-- TemplateBeginEditable name="Main Content" -->
+			ADD MAIN CONTENT HERE
+		  <!-- TemplateEndEditable --> 
+		  </div>
+		</div>
+  
+ <!--- END MAIN CONTENT --> 
+		<div id="navigation">
+		</div>
+
+    </div>
+	 
+	  <!-- webslides scripts -->
+	  
+	  <script src="../js/webslides.js"></script>
+	  <script>
+	  window.ws = new WebSlides();
+	  </script>
+	  
+	  <!-- SVG Icons -->
+	  <script defer src="../js/svg-icons.js"></script>
+  </body>
+</html>
