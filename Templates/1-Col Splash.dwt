@@ -9,8 +9,8 @@
 R306 - Medical Needs Sheltering 
   </title>
 
-
 <!-- Custom CSS-->
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="../css/custom.css" rel="stylesheet">
 	  <link href="../css/svg-icons.css" rel="stylesheet">
 	<link href="../css/webslides.css" rel="stylesheet">
@@ -50,8 +50,14 @@ R306 - Medical Needs Sheltering
 	  <script>
 	  window.ws = new WebSlides();
 	  </script>
-	  
 	  <!-- SVG Icons -->
 	  <script defer src="../js/svg-icons.js"></script>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="../js/jquery-3.3.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap-4.3.1.js"></script>
+	  
   </body>
 </html>
