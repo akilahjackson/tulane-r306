@@ -205,6 +205,15 @@ h1 {
   text-align: center;
 }
 
+/* Map Styling */
+
+#map {
+	
+width: 100%;
+position: absolute; 
+top: 0; 
+bottom: 0;
+}
 /* Overrides */
 
 /* TOC Overries */

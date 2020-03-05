@@ -22,7 +22,9 @@ R306 - Medical Needs Sheltering
   <!-- TemplateParam name="course_name_subheading" type="text" value="R306-MNS" -->
 <!-- END TEMPLATE PARAMETERS -->
  
-	 
+	 	<!--Mapbox --->
+			<script src="https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.js"></script>
+			<link href="https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css" rel="stylesheet" />
   </head>
   <body>
 
