@@ -2,17 +2,21 @@
 
 /*Course Heading */
 
-.course_name {
+.course_long_name {
 	color: #636363;
 	font-weight: bold;
-	text-shadow: 4px 4px 8px #999999;
+	text-shadow: 2px 2px 4px #999999;
+	text-align: left;
+	
 	
 }
 
-.course_subheading {
+.course_name_subheading  {
 	color: #999999;
 	text-shadow: 3px 3px 6px #999999;
 	font-weight: normal;
+	text-align: left;
+	
 }
 
 /* Horizontal Bar*/
@@ -222,4 +226,11 @@ bottom: 0;
 }
 .toc li .toc-page:before {
      border-bottom: none !important;
+}
+
+/* Main Content Overrride */
+
+section, .slide {
+	
+	min-height: 50vh !important;
 }
