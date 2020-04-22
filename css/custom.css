@@ -1,5 +1,17 @@
 /* Custom CSS */
 
+/* Image Styling */
+
+.fill {object-fit: fill;}
+.contain {object-fit: contain;}
+.cover {object-fit: cover;}
+.scale-down {object-fit: scale-down;}
+.none {object-fit: none;}
+	
+object-fit: cover;
+
+}
+
 /*Course Heading */
 
 .course_long_name {
