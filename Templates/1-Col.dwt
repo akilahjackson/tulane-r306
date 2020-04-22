@@ -34,7 +34,7 @@ R306 - Medical Needs Sheltering
 			  <header>  <h1 class="course_long_name">@@(course_long_name)@@ </h1>
 		     <h2 class="lead course_name_subheading">@@(course_name_subheading)@@</h2></header>
 		  </div>
-			<div class="col-md-4"><!-- TemplateBeginEditable name="Course Logo" --><img class="img-fluid" src="../images/R6 Logo.png" width="175" height="125" alt="R6 Logo"/><!-- TemplateEndEditable -->
+			<div class="col-md-4"><!-- TemplateBeginEditable name="Course Logo" --><img class="img-fluid" src="../images/R6_Logo.png" width="175" height="125" alt="R6 Logo"/><!-- TemplateEndEditable -->
 		    
 			</div>
 	  </div>
