@@ -29,15 +29,18 @@ R306 - Medical Needs Sheltering
 		
 <!--- START COURSE HEADING -->
 		
-		<div class="shadow-sm row animated fadeIn delay-1s fadeInDown delay-1s">
-		  <div class="col-md-8">
-			  <header>  <h1 class="course_long_name">@@(course_long_name)@@ </h1>
-		     <h2 class="lead course_name_subheading">@@(course_name_subheading)@@</h2></header>
+		<div class=" shadow-sm row animated fadeIn delay-1s fadeInDown delay-1s">
+		  <div class="col-md-8 d-block mx-auto">
+			<p class="h1 course_long_name">@@(course_long_name)@@ </p>
+		     <p class=" h2 lead course_name_subheading">@@(course_name_subheading)@@</p>
 		  </div>
-			<div class="col-md-4"><!-- TemplateBeginEditable name="Course Logo" --><img class="img-fluid" src="../images/R6_Logo.png" width="175" height="125" alt="R6 Logo"/><!-- TemplateEndEditable -->
+			<div class="col-md-4 d-block mx-auto"><!-- TemplateBeginEditable name="Course Logo" --><img class="img-fluid mx-auto" src="../images/R6_Logo.png" width="175" height="125" alt="R6 Logo"/><!-- TemplateEndEditable -->
 		    
 			</div>
 	  </div>
+			
+		
+<!--- END COURSE HEADING -->
 			
 		
 <!--- END COURSE HEADING -->
