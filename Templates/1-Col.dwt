@@ -34,7 +34,7 @@ R306 - Medical Needs Sheltering
 			  <header>  <h1 class="course_long_name">@@(course_long_name)@@ </h1>
 		     <h2 class="lead course_name_subheading">@@(course_name_subheading)@@</h2></header>
 		  </div>
-			<div class="col-md-4"><!-- TemplateBeginEditable name="Course Logo" --><img class="img-fluid" src="../images/R6 Logo.png" width="175" height="125" alt="R6 Logo"/><!-- TemplateEndEditable -->
+			<div class="col-md-4"><!-- TemplateBeginEditable name="Course Logo" --><img class="img-fluid" src="../images/R6_Logo.png" width="175" height="125" alt="R6 Logo"/><!-- TemplateEndEditable -->
 		    
 			</div>
 	  </div>
@@ -55,8 +55,19 @@ R306 - Medical Needs Sheltering
       <li class="nav-item active">
         <a class="nav-link" href="starthere.html">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="L0_T1_01.html">Course Overview</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="L0_T1_01.html" id="navbarDropdowna" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Course Introduction
+		  </a>
+		  <div class="dropdown-menu" aria-labelledby="navbarDropdowna">
+          <a class="dropdown-item" href="/L0_T1_01.html">Welcome to the Course </a>
+          <a class="dropdown-item" href="/L0_T1_01a.html">Learning Objectives</a>
+          <a class="dropdown-item" href="/L0_T1_02.html">About the Author</a>
+		  <a class="dropdown-item" href="/L0_T2_01.html">Technical Requirements</a>
+	      <a class="dropdown-item" href="/L0_T2_02.html">Navigational Tips</a>
+		   <a class="dropdown-item" href="/L0_T2_03.html">Additional Assistance</a>
+		   <a class="dropdown-item" href="/L0_T3_01.html">Assessments</a>
+        </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="/Lesson1/L1_T0_00.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -101,9 +112,20 @@ R306 - Medical Needs Sheltering
           <a class="dropdown-item" href="/Lesson4/L4_T1_01.html">Topic 1 - Forms</a>
           <a class="dropdown-item" href="/Lesson4/">Topic 2 - Activity/Knowledge Check </a>
         </div>
-      </li>
-		<li class="nav-item">
-        <a class="nav-link" href="c1.html">Course Conclusion</a>
+		</li>
+		
+		<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="c1.html" id="navbarDropdownz" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Course Conclusion
+		  </a>
+		  <div class="dropdown-menu" aria-labelledby="navbarDropdownz">
+		   <a class="dropdown-item" href="/c1.html">Course Summary</a>
+          <a class="dropdown-item" href="/c1_01.html">Acknowledgements</a>
+          <a class="dropdown-item" href="/c1_02.html">Final Exam Instructions</a>
+          <a class="dropdown-item" href="/c1_03.html">Printing Your Certificate</a>
+		  <a class="dropdown-item" href="/complete.html">Complete</a>
+
+        </div>
       </li>
 		
     </ul>
