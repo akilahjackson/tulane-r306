@@ -153,6 +153,7 @@ R306 - Medical Needs Sheltering
 		</div>
 <!--- END BREADCRUMB -->		
 			
+		
 <!--- START HEADLINE -->	
 		 <div class="row animated fadeInDown delay-4s">
         <div class="col-md-8">
@@ -217,20 +218,20 @@ R306 - Medical Needs Sheltering
 						<div id="collapseDownloadable" class="collapse" aria-labelledby="DownloadableDocs" data-parent="#resourcesAccordion">
 						  <div class="card-body">
 						<ul>
-							<li> Form 1 –EnvironmentalAssessment Form </li>
-							<li>Form 2 –Pre-& Post-Facility Survey </li>
-							<li>Form 3 –Supply Order Form </li>
-							<li>Form 4 –Daily Staff-Volunteer Sign-InSheet</li>
-							<li>Form 5 –Resident /Staff/Volunteer Meal Sign-In Form</li>
-							<li>Form 6 –Intake Assessment Form </li>
-							<li>Form 7 –Registration Form</li>
-							<li>Form 8 –Admissions/Daily Census Log</li>
-							<li>Form 9 –Weekly Census Report</li>
-							<li>Form 10 –Visitor Sign-In Form</li>
-							<li>Form 11 –Medical Update Form</li>
-							<li>Form 12 –Surveillance Worksheet</li>
-							<li>Form 13 –Incident Report Form</li>
-							<li>Form 14 –Medical Transfer Form</li>
+							<li><a href="../downloads/Form 1 - Environmental Assessment Form.pdf" title="Form 1 –EnvironmentalAssessment Form" target="new">Form 1 –EnvironmentalAssessment Form</a> </li>
+							<li><a href="../downloads/Form 2 - Pre_Post Facility Survey.pdf" title="Form 2 – Pre-& Post-Facility Survey" target="new">Form 2 – Pre-& Post-Facility Survey</a> </li>
+							<li><a href="../downloads/Form 3 - Supply Order Form.pdf" title="Form 3 – Supply Order Form" target="new">Form 3 – Supply Order Form</a> </li>
+							<li><a href="../downloads/Form 4 - Daily Staff_Volunteer Sign-In Sheet.pdf" title="Form 4 – Daily Staff-Volunteer Sign-In Sheet" target="new">Form 4 – Daily Staff-Volunteer Sign-In Sheet</a></li>
+							<li><a href="../downloads/Form 5 - Resident_Staff_Volunteer Meal Sign-In Form.pdf" title="Form 5 – Resident /Staff/Volunteer Meal Sign-In Form" target="new">Form 5 – Resident /Staff/Volunteer Meal Sign-In Form</a></li>
+							<li><a href="../downloads/Form 6 - Intake Assessment Form.pdf" title="Form 6 – Intake Assessment Form">Form 6 – Intake Assessment Form</a> </li>
+							<li><a href="../downloads/Form 7 - Registration Form.pdf" title="Form 7 – Registration Form" target="new">Form 7 – Registration Form</a></li>
+							<li><a href="../downloads/Form 8 - Admissions_Daily Census Log.pdf" title="Form 8 – Admissions/Daily Census Log" target="new">Form 8 – Admissions/Daily Census Log</a></li>
+							<li><a href="../downloads/Form 9 - Weekly Census Report.pdf" title="Form 9 – Weekly Census Report" target="new">Form 9 – Weekly Census Report</a></li>
+							<li><a href="../downloads/Form 10 - Visitor Sign-In Form.pdf" title="Form 10 – Visitor Sign-In Form" target="new">Form 10 – Visitor Sign-In Form</a></li>
+							<li><a href="../downloads/Form 11 - Medical Update Form.pdf" title="Form 11 – Medical Update Form" target="new">Form 11 – Medical Update Form</a></li>
+							<li><a href="../downloads/Form 12 - Surveillance Worksheet.pdf" title="Form 12 –Surveillance Worksheet" target="new">Form 12 –Surveillance Worksheet</a></li>
+							<li><a href="../downloads/Form 13 - Incident Report Form.pdf" title="Form 13 – Incident Report Form" target="new">Form 13 – Incident Report Form</a></li>
+							<li><a href="../downloads/Form 14 - Medical Transfer Form.pdf" title="Form 14 – Medical Transfer Form" target="new">Form 14 – Medical Transfer Form</a></li>
 							  
 							  
 							  </ul>
