@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tincan xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="r306-SMNS-responsive" type="course">
+			<name>R306 SMNS Responsive xApi</name>
+			<description lang="en-US">Developed by Cognitive Prototyping</description>
+			<launch lang="en-us">scormdriver/indexAPI.html</launch>
+		</activity>
+	</activities>
+</tincan>
