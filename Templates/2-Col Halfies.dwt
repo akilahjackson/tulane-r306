@@ -182,6 +182,8 @@ R306 - Medical Needs Sheltering
       <div class="row animated fadeinUp delay-1s">
          <div class="col-md-12">
 			 <!-- TemplateBeginEditable name="Footer" -->
+			 
+			 <!-- TemplateEndEditable -->
 			 <div class="card-deck">
   <div class="card bg-transparent">
     <div class="card-body">
@@ -335,12 +337,12 @@ R306 - Medical Needs Sheltering
     
   </div>
 </div>
-			 <!-- TemplateEndEditable -->
+			 
              
             
           </div>
        </div>
-		<footer > <img class="img-fluid" src="../images/msdh-logo-horizontal.png" alt="MSDH Logo"/></footer>
+		 <footer > <img class="img-fluid w-50" src="../images/msdh-logo-horizontal.png" alt="MSDH Logo"/></footer>
 <!--- END FOOTER --> 
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
