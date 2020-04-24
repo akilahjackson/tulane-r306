@@ -181,9 +181,7 @@ R306 - Medical Needs Sheltering
   <!--- START FOOTER -->  
       <div class="row animated fadeinUp delay-1s">
          <div class="col-md-12">
-			 <!-- TemplateBeginEditable name="Footer" -->
-			 
-			 <!-- TemplateEndEditable -->
+	
 			 <div class="card-deck">
   <div class="card bg-transparent">
     <div class="card-body">
