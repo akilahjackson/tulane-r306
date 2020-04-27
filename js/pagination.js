@@ -12,13 +12,14 @@ document.addEventListener('DOMContentLoaded',function(){
      const req=new XMLHttpRequest();
       req.open("GET",coursepages,true);
 	req.setRequestHeader('accept', '*/*');
-	req.setRequestHeader('Access-Control-Request-Method','GET');
-	req.setRequestHeader('Access-Control-Request-Method','x-pingother, content-type');
 	  req.setRequestHeader('x-pingother', 'pingpong');
 	 req.setRequestHeader('content-type', 'application/json');
 	
       req.send();
-      req.onload=function(){ var json=JSON.parse(req.responseText);list.push = json; numberOfPages = getNumberOfPages();		
+      req.onload=function(){ var json=JSON.parse(req.responseText);list.push = json; numberOfPages = getNumberOfPages();
+						
+	console.log(document.cookie);
+	document.getElementById("list").innerHTML = "You are Here:";
       // Add your code above this line
     };
 	
@@ -70,6 +71,7 @@ function loadList() {
     check();
 	
 	console.log(pageList);
+	
 
 }
 
@@ -77,9 +79,9 @@ function loadList() {
 
 	var path = window.location.pathname;
 	 var page = path.split("/").pop();
+	 
 	 console.log( page );
 		 
-	 document.getElementById("list").innerHTML = "You are Here:";
 	 
 	 /*
     for (let r = 0; r < pageList.length; r++)
@@ -143,7 +145,7 @@ function check() {
 	
 function load() {
 	
-
+	
     makeList();
     loadList();
 }
