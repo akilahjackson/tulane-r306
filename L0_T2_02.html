@@ -170,19 +170,19 @@ R306 - Medical Needs Sheltering
 			<p>This course offers several ways to access the course content.</p> 
 			<ul>
 			<li>
-			Use the tabs on the left side of the screen to access course elements (modules, lessons, and topics). A 1-2-3-4 illustration is displayed on the right of this screen. 
+			Use the course menu on the top of the course content to access course elements (modules, lessons, and topics). <em>The course menu is mobile friendly. </em>
 			</li>
 			<li>
 			Navigation features at the bottom of the screen include back and next buttons to move from one page/screen of the course to another. 	
 			</li>
 			<li>
-			A breadcrumbs trail at the top left of the screen will take you to the first page of each section. Click here (p7_Tooltip1) for a detailed view. 	
+			A breadcrumbs trail at the top left of the screen will take you to the first page of each section. 	
 			</li>
 			<li>
-			A Help Tab (bottom left of the screen) puts information you may need during the course at your fingertips. 	
+			A Resources and Support Menu are located at the bottom of the course content to access additional support such as downloadable files.
 			</li>
 			<li>
-				Course links typically open in a second window. When you have finished viewing the contents in the second window, close the window to return to the course.
+			Course links typically open in a second window. When you have finished viewing the contents in the second window, close the window to return to the course.
 			</li>
 			</ul>
 			
@@ -192,18 +192,49 @@ R306 - Medical Needs Sheltering
 		  </div>
           <div class="col-md-6">
 			  <!-- InstanceBeginEditable name="Main2 Content" -->
-			  <img class="img-fluid" src="images/L0T2P2/navtabs.png" alt="NavTabs" />
-			  <p>p7_Tooltip1Advanced Tooltip Trigger Element=p7Tooltip_1content source=ElementID: breadcrumbswidth 590px position=5-Below Centerhorizontal offset=0px vertical offset=10px check show callout arrow check show close button check window edge detection trigger action=click only animation=5-Reveal Upduration 300ms check animate on close style theme=01-lemon creamimages/L0T2P2/breadcrumbs.png –549 x 161</p>
-			  <img class="img-fluid" src="images/L0T2P2/breadcrumbs.png" alt="Breadcrumbs" />
+			  <strong> Course Menu (mobile-friendly)</strong>
+			  <img class="img-fluid" src="images/L0T2P2/navtabs_new.png" alt="NavTabs" />
+			  <p><strong>Course Menu resizes on mobile devices.</strong> </p>
+			  <img class="img-fluid" src="images/L0T2P2/navtabs_mobile.png" alt="NavTabs Mobile" />
+			  <p> <strong> Expand the course menu on mobile devices for access to course elements.</strong></p>
+			  <img class="img-fluid" src="images/L0T2P2/navtabs_mobile2.png" alt="NavTabs Mobile Expanded" />
+			  <p><strong>Access Breadcrumbs below the course menu.</strong></p>
+			  <img class="img-fluid" src="images/L0T2P2/breadcrumbs_new.png" alt="NavTabs Mobile Expanded" />
+			  
 			  <!-- InstanceEndEditable -->
            
         </div>
       </div>
   <!--- END MAIN CONTENT -->    
-  <!--- START FOOTER -->  
-      <div class="row animated fadeinUp delay-1s">
-         <div class="col-md-12">
+ <!--- START FOOTER --> 
+		
+	<div class="row">
+		
+		<div class="col-md-12">
+		
+		
+		<div class="input-group mb-4 justify-content-center">
+    <input class="mx-2  rounded-pill" type="button" id="first" onclick="firstPage()" value="first" />
+    <input class="mx-2 rounded-pill" type="button" id="next" onclick="nextPage()" value="next" />
+    <input class="mx-2 rounded-pill" type="button" id="previous" onclick="previousPage()" value="previous" />
+    <input class="mx-2 rounded-pill" type="button" id="last" onclick="lastPage()" value="last" />
+
+    <div class="card card-body" id="list"></div>
 	
+
+			
+    </div> 
+			
+		</div>	
+		
+	</div>	
+		
+		
+		
+      <div class="row animated fadeinUp delay-1s">
+
+         <div class="col-md-12">
+
 			 <div class="card-deck">
   <div class="card bg-transparent">
     <div class="card-body">
@@ -222,9 +253,9 @@ R306 - Medical Needs Sheltering
 						<div id="collapseWebsites" class="collapse show" aria-labelledby="WebsitesofInterest" data-parent="#resourcesAccordion">
 						  <div class="card-body">
 							<ul>
-							  <li> Mississippi State Department of Health (MSDH)–State Medical Needs Shelter - <a href="https:/msdh.ms.gov/msdhsite/_static/44,0,122,792.html">https:/msdh.ms.gov/msdhsite/_static/44,0,122,792.html</a></li>
-								<li> Mississippi Emergency Management Agency (MEMA)- <a href="https:/www.msema.org/"> https:/www.msema.org/</a> </li>
-								<li> Mississippi ResponderManagement System (MRMS)- <a href="https:/www.signupms.org">https:/www.signupms.org </a></li>
+							  <li> Mississippi State Department of Health (MSDH)–State Medical Needs Shelter - <a href="https://msdh.ms.gov/msdhsite/_static/44,0,122,792.html">https://msdh.ms.gov/msdhsite/_static/44,0,122,792.html</a></li>
+								<li> Mississippi Emergency Management Agency (MEMA)- <a href="https://www.msema.org/"> https://www.msema.org/</a> </li>
+								<li> Mississippi ResponderManagement System (MRMS)- <a href="https://www.signupms.org">https://www.signupms.org </a></li>
 							  
 							  </ul>
 						  </div>
@@ -284,9 +315,7 @@ R306 - Medical Needs Sheltering
   <div class="card bg-transparent">
     <div class="card-body">
       <h5 class="card-title">Support</h5>
-       <img class="img-fluid mx-auto" src="images/help.png" width="50" height="50" alt="Help" /> 
-		<p> Please use the topics below to troubleshoot any issues you may encounter in this course. </p> 
-		<p>You may also contact any of the groups listed in the Contact Us section for additional help.</p>
+   
 		
 		<div id="accordionSupport">
   <div class="card">
@@ -300,7 +329,25 @@ R306 - Medical Needs Sheltering
 
     <div id="collapseHowCourse" class="collapse show" aria-labelledby="howCourseworks" data-parent="#accordionSupport">
       <div class="card-body">
-       <a href="help/how.html"> How the Course Works</a>
+		<p>This course offers several ways to access the course content.</p> 
+			<ul>
+			<li>
+			Use the course menu on the top of the course content to access course elements (modules, lessons, and topics). <em>The course menu is mobile friendly. </em>
+			</li>
+			<li>
+			Navigation features at the bottom of the screen include back and next buttons to move from one page/screen of the course to another. 	
+			</li>
+			<li>
+			A breadcrumbs trail at the top left of the screen will take you to the first page of each section. 	
+			</li>
+			<li>
+			A Resources and Support Menu are located at the bottom of the course content to access additional support such as downloadable files.
+			</li>
+			<li>
+			Course links typically open in a second window. When you have finished viewing the contents in the second window, close the window to return to the course.
+			</li>
+			</ul>
+       <a href="L0_T2_01.html"> Read Navigational Tips </a>
       </div>
     </div>
   </div>
@@ -371,5 +418,8 @@ R306 - Medical Needs Sheltering
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.3.1.js"></script>
+	
+	<!-- Custom Pagination -->
+	<script src="js/pagination.js"></script>
   </body>
 <!-- InstanceEnd --></html>

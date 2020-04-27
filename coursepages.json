@@ -1,0 +1,66 @@
+{ "coursepage" : [
+      {
+        "id": "1",
+        "pageName": "R306 Entry Page",
+        "pageParentname": "",
+        "pageParentURI": "../",
+        "endOfLesson": "no",
+        "endOfCourse": "no",
+        "pageURI": "starthere.html"
+      },
+      {
+        "id": "2",
+        "pageName": "Learning Objectives",
+        "pageParentname": "Welcome to the Course",
+        "pageParentURI": "L0_T1_01.html",
+        "endOfLesson": "no",
+        "endOfCourse": "no",
+        "pageURI": "L0_T1a_01.html"
+      },
+      {
+        "id": "3",
+        "pageName": "About The Author",
+        "pageParentname": "Welcome to the Course",
+        "pageParentURI": "L0_T1_01.html",
+        "endOfLesson": "no",
+        "endOfCourse": "no",
+        "pageURI": "L0_T1_02.html"
+      },
+      {
+        "id": "4",
+        "pageName": "Technical Requirements",
+        "pageParentname": "Welcome to the Course",
+        "pageParentURI": "L0_T1_01.html",
+        "endOfLesson": "no",
+        "endOfCourse": "no",
+        "pageURI": "L0_T2_01.html"
+      },
+      {
+        "id": "5",
+        "pageName": "Navigational Tips",
+        "pageParentname": "Welcome to the Course",
+        "pageParentURI": "L0_T1_01.html",
+        "endOfLesson": "no",
+        "endOfCourse": "no",
+        "pageURI": "L0_T2_02.html"
+      },
+      {
+        "id": "6",
+        "pageName": "Additional Assistance",
+        "pageParentname": "Welcome to the Course",
+        "pageParentURI": "L0_T1_01.html",
+        "endOfLesson": "no",
+        "endOfCourse": "no",
+        "pageURI": "L0_T2_03.html"
+      },
+      {
+        "id": "7",
+        "pageName": "Assessments",
+        "pageParentname": "Welcome to the Course",
+        "pageParentURI": "L0_T1_01.html",
+        "endOfLesson": "no",
+        "endOfCourse": "no",
+        "pageURI": "L0_T3_01.html"
+      }
+    ]
+}
