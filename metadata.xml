@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pkgprop="http://www.scorm.com/xsd/ScormEnginePackageProperties" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM lomLoose.xsd http://www.scorm.com/xsd/ScormEnginePackageProperties ScormEnginePackageProperties.xsd">
+  <metametadata>
+    <metadataSchema>LOMv1.0</metadataSchema>
+    <metadataSchema>ADL SCORM 1.2</metadataSchema>
+    <identifier>
+      <catalog>URI</catalog>
+      <entry>com.CognitivePrototypingLLC.R306StateMedicalNeedsSheltering.cad93844-ebce-47b0-bf18-32eef99847ad</entry>
+    </identifier>
+    <language>en</language>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>Creator</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:2.1
+ORG:Cognitive Prototyping, LLC
+END:VCARD  ]]></entity>
+      <date>
+        <dateTime>2020-04-27</dateTime>
+        <description language="en"><![CDATA[1587982347209]]></description>
+      </date>
+    </contribute>
+  </metametadata>
+  <general>
+    <identifier>
+      <catalog>URI</catalog>
+      <entry>com.CognitivePrototypingLLC.R306StateMedicalNeedsSheltering.cad93844-ebce-47b0-bf18-32eef99847ad</entry>
+    </identifier>
+    <title>
+      <string language="en"><![CDATA[R306 State Medical Needs Sheltering]]></string>
+    </title>
+    <language>en</language>
+    <description>
+      <string language="en"/>
+    </description>
+    <structure>
+      <source>LOMv1.0</source>
+      <value>atomic</value>
+    </structure>
+    <aggregationLevel>
+      <source>LOMv1.0</source>
+      <value>1</value>
+    </aggregationLevel>
+  </general>
+  <lifeCycle>
+    <version>
+      <string language="en">1.0.0</string>
+    </version>
+    <status>
+      <source>LOMv1.0</source>
+      <value>final</value>
+    </status>
+    <contribute>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:2.1
+ORG:Cognitive Prototyping, LLC
+END:VCARD  ]]></entity>
+      <date>
+        <dateTime>2020-04-27</dateTime>
+        <description language="en"><![CDATA[1587982347209]]></description>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>Author</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:2.1
+ORG:Cognitive Prototyping, LLC
+END:VCARD  ]]></entity>
+      <date>
+        <dateTime>2020-04-27</dateTime>
+        <description language="en"><![CDATA[1587982347209]]></description>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>Publisher</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:2.1
+NOTE:version 1.0.0 
+ORG:Cognitive Prototyping, LLC
+END:VCARD  ]]></entity>
+      <date>
+        <dateTime>2020-04-27</dateTime>
+        <description language="en"><![CDATA[1587982347209]]></description>
+      </date>
+    </contribute>
+    <contribute>
+      <role>
+        <source>LOMv1.0</source>
+        <value>Technical Implementer</value>
+      </role>
+      <entity><![CDATA[BEGIN:VCARD
+VERSION:2.1
+ORG:Cognitive Prototyping, LLC
+END:VCARD  ]]></entity>
+      <date>
+        <dateTime>2020-04-27</dateTime>
+        <description language="en"><![CDATA[1587982347209]]></description>
+      </date>
+    </contribute>
+  </lifeCycle>
+  <technical>
+    <format>text/html</format>
+    <format>application/x-javascript</format>
+    <format>text/css</format>
+    <size/>
+    <location>starthere.html</location>
+    <duration>
+      <duration>PT0H0M0S</duration>
+      <description>
+        <string language="en"><![CDATA[The time it will take to watch the entire module from start to finish.]]></string>
+      </description>
+    </duration>
+    <pkgprop:ScormEnginePackageProperties xmlns="http://www.scorm.com/xsd/ScormEnginePackageProperties">
+      <appearance>
+        <displayStage>
+          <desired>
+            <width>1280</width>
+            <height>720</height>
+            <fullscreen>yes</fullscreen>
+          </desired>
+          <required>
+            <width>300</width>
+            <height>300</height>
+            <fullscreen>no</fullscreen>
+          </required>
+        </displayStage>
+      </appearance>
+      <behavior>
+        <alwaysFlowToFirstSco>yes</alwaysFlowToFirstSco>
+        <rollupEmptySetToUnknown>yes</rollupEmptySetToUnknown>
+      </behavior>
+    </pkgprop:ScormEnginePackageProperties>
+  </technical>
+  <educational>
+    <typicalLearningTime>
+      <duration>PT0H0M0S</duration>
+      <description>
+        <string language="en"><![CDATA[The average time for a learner to complete this course.]]></string>
+      </description>
+    </typicalLearningTime>
+    <description>
+      <string/>
+    </description>
+    <language>en</language>
+  </educational>
+  <rights>
+    <copyrightAndOtherRestrictions>
+      <source>LOMv1.0</source>
+      <value>no</value>
+    </copyrightAndOtherRestrictions>
+    <description>
+      <string language="en"><![CDATA[© Cognitive Prototyping, LLC. All rights reserved.]]></string>
+    </description>
+  </rights>
+</lom>
