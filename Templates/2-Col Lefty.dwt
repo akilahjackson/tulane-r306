@@ -184,7 +184,7 @@ R306 - Medical Needs Sheltering
 		
  <!--- START FOOTER --> 
 		
-	<div class="row">
+	<div class="row mb-4">
 	
 				<div class="col-md-12">
 					<div class="input-group mx-auto w-75 mb-4 justify-content-center">
