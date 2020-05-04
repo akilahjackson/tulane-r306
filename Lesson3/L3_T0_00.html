@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	  
+  
   <title>
 R306 - Medical Needs Sheltering 
   </title>
+<!-- TU Experience PWA -->
+ <link rel="manifest" href="/manifest.json">
 
 <!-- Bootstrap -->
   <link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
@@ -188,24 +190,32 @@ R306 - Medical Needs Sheltering
 		
  <!--- START FOOTER --> 
 		
-	<div class="row">
+	<div class="row mb-4">
+	
+				<div class="col-md-12">
+					<div class="input-group mx-auto w-75 mb-4 justify-content-center">
+						
+    <input class="w-25 p-3 btn btn-primary btn-lg rounded-pill" type="button" id="first" onclick="firstPage()" value="first" />
+						
+		<input class="w-25 p-3 btn btn-primary btn-lg rounded-pill" type="button" id="previous" onclick="previousPage()" value="<<" />
+						
+    <input class="w-25 p-3 btn btn-primary btn-lg rounded-pill" type="button" id="next" onclick="nextPage()" value=">>" />
+    
+    <input class="w-25 p-3 btn btn-primary btn-lg rounded-pill" type="button" id="last" onclick="lastPage()" value="last" />
 		
-		<div class="col-md-12">
+		</div>	
+			</div>
 		
-		
-		<div class="input-group mb-4 justify-content-center">
-    <input class="mx-2  rounded-pill" type="button" id="first" onclick="firstPage()" value="first" />
-    <input class="mx-2 rounded-pill" type="button" id="next" onclick="nextPage()" value="next" />
-    <input class="mx-2 rounded-pill" type="button" id="previous" onclick="previousPage()" value="previous" />
-    <input class="mx-2 rounded-pill" type="button" id="last" onclick="lastPage()" value="last" />
-
-    <div class="card card-body" id="list"></div>
+			<div class="col-md-12">
+			
+			<div class="card mx-auto w-75 card-body" id="list">
+				
+				</div>
 	
 
 			
     </div> 
 			
-		</div>	
 		
 	</div>	
 		
@@ -224,13 +234,13 @@ R306 - Medical Needs Sheltering
 					  <div class="card">
 						<div class="card-header" id="WebsitesofInterest">
 						  <h5 class="mb-0">
-							<button class="btn btn-link" data-toggle="collapse" data-target="#collapseWebsites" aria-expanded="true" aria-controls="collapseWebsites">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseWebsites" aria-expanded="true" aria-controls="collapseWebsites">
 							  Websites of Interest
 							</button>
 						  </h5>
 						</div>
 
-						<div id="collapseWebsites" class="collapse show" aria-labelledby="WebsitesofInterest" data-parent="#resourcesAccordion">
+						<div id="collapseWebsites" class="collapse" aria-labelledby="WebsitesofInterest" data-parent="#resourcesAccordion">
 						  <div class="card-body">
 							<ul>
 							  <li> Mississippi State Department of Health (MSDH)–State Medical Needs Shelter - <a href="https://msdh.ms.gov/msdhsite/_static/44,0,122,792.html">https://msdh.ms.gov/msdhsite/_static/44,0,122,792.html</a></li>
@@ -301,13 +311,13 @@ R306 - Medical Needs Sheltering
   <div class="card">
     <div class="card-header" id="howCourseworks">
       <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseHowCourse" aria-expanded="true" aria-controls="collapseHowCourse">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseHowCourse" aria-expanded="true" aria-controls="collapseHowCourse">
           How the Course Works
         </button>
       </h5>
     </div>
 
-    <div id="collapseHowCourse" class="collapse show" aria-labelledby="howCourseworks" data-parent="#accordionSupport">
+    <div id="collapseHowCourse" class="collapse" aria-labelledby="howCourseworks" data-parent="#accordionSupport">
       <div class="card-body">
 		<p>This course offers several ways to access the course content.</p> 
 			<ul>
@@ -401,6 +411,7 @@ R306 - Medical Needs Sheltering
     <script src="../js/bootstrap-4.3.1.js"></script>
 	
 	<!-- Custom Pagination -->
-	<script src="../js/pagination.js"></script>
+	
+	<script type="module" src="../js/pagination.js"></script>
   </body>
 <!-- InstanceEnd --></html>
