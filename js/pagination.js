@@ -2,7 +2,7 @@ var pageList = new Array();
 var currentPage = 1;
 var numberPerPage = 1;
 var numberOfPages = 1;
-var coursepages = './coursepages.json';
+var coursepages = '../coursepages.json';
 
 document.addEventListener('DOMContentLoaded',function(){
   
@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded',function(){
 										objectStore.createIndex("pageParentURI","pageParentURI",{unique:false});
 										objectStore.createIndex("endOfLesson","endOfLesson",{unique:false});
 										objectStore.createIndex("endOfCourse","endOfCourse",{unique:false});
+										objectStore.createIndex("nextPageID","nextPageID",{unique:false});
 										objectStore.createIndex("pageURI","pageURI",{unique:false});
 
 										
@@ -145,7 +146,6 @@ function loadList() {
 	drawList();
     check();
 	
-	console.log(pageList);
 	
 
 }
@@ -169,52 +169,73 @@ function drawList() {
 	
 									}*/
 	
-		var	obj = pageList.filter(function(currentPage) {
-												return currentPage.pageURI == page +('.html');
+		var currentPageURI = page + '.html';
+	
+		var	currentPage = pageList.filter(function(currentPages) 
+								  {
+							return currentPages.pageURI == currentPageURI;
 												
-											});
+								});
+		
+	var retrieveNextpage = currentPage[0].nextPageID;
+	
+		var nextPage = pageList.filter(function(currentPages) 
+								  {
+							return currentPages.id == retrieveNextpage;
+												
+								});
 		
 					
-	console.log(obj);
+	console.log(nextPage);
 	
     	let div = document.createElement('div');
-    	let pageName = document.createElement('h4');
-		let pageParentname = document.createElement('div');
-		let pageParentURI = document.createElement('a');
-		let pageURI = document.createElement('a');
-		let endOfLesson = document.createElement('div');
-		let endOfCourse = document.createElement('div'); 
+		let nextdiv = document.createElement('div');
+		let descriptiondiv = document.createElement('div');
+		let navStatus = document.createElement('p');
+    	let currentpageName = document.createElement('h4');
+		let currentpageParentname = document.createElement('h5');
+		let currentpageParentURI = document.createElement('a');
+		let currentpageURI = document.createElement('a');
+		let currentendOfLesson = document.createElement('div');
+		let currentendOfCourse = document.createElement('div'); 
+		let nextPageName = document.createElement('h4');
+		let nextPageURI = document.createElement('a');
+		let nextPageParentName = document.createElement('p');
+		let nextPageParentURI = document.createElement('a');
 
-		div.classname ='currentPage';
+		div.className ='nextPage row';
+		nextdiv.className='nextdiv col-md-3';
+		descriptiondiv.className='descriptiondiv col-md-9';
 	
-        pageName.innerHTML = obj[0].pageName;
-        pageName.className = 'pageName card-title';
-		
-     	pageURI.innerHTML = obj[0].pageURI;
-		pageURI.href = './' + obj[0].pageURI;
-        pageURI.className = 'pageURI';
-		
-		pageParentname.innerHTML = obj[0].pageParentname;
-        pageParentname.className = 'pageParentname d-none';
+		navStatus.innerHTML='Next Page :';
+		navStatus.classname='card-title pageStatus display-4';
+	
+        nextPageName.innerHTML = nextPage[0].pageName;
+        nextPageName.className = 'nextPageName lead';
 
-		pageParentURI.innerHTML = obj[0].pageParentURI;
-        pageParentURI.className = 'pageParentURI d-none';
-
-		endOfLesson.innerHTML = obj[0].endOfLesson;
+	
+		nextPageParentName.innerHTML = nextPage[0].pageParentname;
+        nextPageParentName.className = 'nextpageParentname display-5';
+	
+		nextPageParentURI.innerHTML = nextPageParentName.textContent;
+		nextPageParentURI.href='/'+ nextPage[0].pageParentURI;
+        nextPageParentURI.className = 'nextpageParentname display-5';
+	
+		
+/*
+		endOfLesson.innerHTML = currentPage[0].endOfLesson;
 		endOfLesson.classname = 'endOfLesson';
 
-		endOfCourse.innerHTML = obj[0].endOfCourse;
+		endOfCourse.innerHTML = currentPage[0].endOfCourse;
 		endOfCourse.classname = 'endOfCourse'; 
-
-        div.appendChild(pageName);
-		div.appendChild(pageURI);
-
-		div.appendChild(pageParentname);
-        div.appendChild(pageParentURI);
-
-		div.appendChild(endOfLesson);
-		div.appendChild(endOfCourse); 
-
+*/
+    	nextdiv.appendChild(navStatus); 
+	
+		descriptiondiv.appendChild(nextPageName);	
+        descriptiondiv.appendChild(nextPageParentURI);
+	
+		div.appendChild(nextdiv);
+		div.appendChild(descriptiondiv);
 
        document.getElementById("list").appendChild(div);
 	

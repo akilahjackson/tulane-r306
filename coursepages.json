@@ -6,6 +6,7 @@
         "pageParentURI": "../",
         "endOfLesson": "no",
         "endOfCourse": "no",
+		"nextPageID": "2",
         "pageURI": "starthere.html"
       },
       {
@@ -15,6 +16,7 @@
         "pageParentURI": "L0_T1_01.html",
         "endOfLesson": "no",
         "endOfCourse": "no",
+		"nextPageID": "3",
         "pageURI": "L0_T1a_01.html"
       },
       {
@@ -24,6 +26,7 @@
         "pageParentURI": "L0_T1_01.html",
         "endOfLesson": "no",
         "endOfCourse": "no",
+		"nextPageID": "4",
         "pageURI": "L0_T1_02.html"
       },
       {
@@ -33,6 +36,7 @@
         "pageParentURI": "L0_T1_01.html",
         "endOfLesson": "no",
         "endOfCourse": "no",
+		"nextPageID": "5",
         "pageURI": "L0_T2_01.html"
       },
       {
@@ -42,6 +46,7 @@
         "pageParentURI": "L0_T1_01.html",
         "endOfLesson": "no",
         "endOfCourse": "no",
+		"nextPageID": "6",
         "pageURI": "L0_T2_02.html"
       },
       {
@@ -51,6 +56,7 @@
         "pageParentURI": "L0_T1_01.html",
         "endOfLesson": "no",
         "endOfCourse": "no",
+		"nextPageID": "7",
         "pageURI": "L0_T2_03.html"
       },
       {
@@ -60,6 +66,7 @@
         "pageParentURI": "L0_T1_01.html",
         "endOfLesson": "no",
         "endOfCourse": "no",
+		"nextPageID": "8",
         "pageURI": "L0_T3_01.html"
       }
     ]
