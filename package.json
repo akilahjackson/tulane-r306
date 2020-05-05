@@ -1,0 +1,14 @@
+{
+  "name": "R306",
+  "version": "1.22.4",
+  "description": "Testing the TU Experience PWA",
+  "main": "index.js",
+  "repository": "https://github.com/akilahjackson/tulane-r306.git",
+  "author": "akilahjackson <akilah@cognitiveproto.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browsersync": "^0.0.1-security",
+    "serve": "^11.3.0",
+    "start": "HTTPS=true SSL_CRT_FILE=tuexperience.crt SSL_KEY_FILE=tuexperience.key"
+  }
+}
