@@ -26,10 +26,8 @@
 					'./downloads/Form 9 - Weekly Census Report.pdf',
 					'./images/author.png',
 					'./images/c1/EmergencyPreparedness.png',
-					'./images/c1/Thumbs.db,
 					'./images/c1P1/thankyou.png',
 					'./images/c1P2/exam1.png',
-					'./images/c1P2/Thumbs.db,
 					'./images/diagnostics.png',
 					'./images/help.png',
 					'./images/icons/icon-128x128.png',
@@ -42,13 +40,10 @@
 					'./images/icons/icon-96x96.png',
 					'./images/L0T1P1/LOGO-MSDH.png',
 					'./images/L0T1P1/objective.png',
-					'./images/L0T1P1/Thumbs.db,
-					'./images/L0T1P2/Thumbs.db,
 					'./images/L0T2P1/diagnostics.png',
 					'./images/L0T2P1/links.png',
 					'./images/L0T2P1/pdf.png',
 					'./images/L0T2P1/speed.png',
-					'./images/L0T2P1/Thumbs.db,
 					'./images/L0T2P2/breadcrumbs.png',
 					'./images/L0T2P2/breadcrumbs_new.png',
 					'./images/L0T2P2/navtabs.png',
@@ -204,9 +199,9 @@
 					'./manifest.json',
 					'./R306_start.png',
 					'./starthere.html'
+				
 						];
 
-	
 
 self.addEventListener('install', event => {
   console.log('Installing course assests');
@@ -214,18 +209,8 @@ self.addEventListener('install', event => {
     caches.open(TU_EXPERIENCE)
     .then(cache => {
       return cache.addAll(TU_EXPERIENCE_CACHE);
-	  
-		return fetch('coursepages.json').then(function(respsonse) {
-			return response.json();
-			
-			var json=JSON.parse(response.json());
-			list.push = json;
-			pageList = Object.values(list.push);
-			
-			console.log(pageList);
-									
-		});
     })
+	  
   );
 });
 
@@ -260,6 +245,10 @@ self.addEventListener('fetch', event => {
     }).catch(error => {
 
       // TODO 6 - Respond with custom offline page
+		
+		if(!(event.request.url.indexOf('http') === 0)){
+				   //skip request
+				}
 
     })
   );
@@ -270,9 +259,14 @@ self.addEventListener('fetch', event => {
 
 function init_courseStructure () {
 	
+  fetch('./coursepages.json')
+    .then(function(response) { 
+	  
+	  pageList = response.json();
+	  console.log('from inside course structure' + pageList);
+  });
 	
-		console.log(cached_coursepageList);
-	
+		
 	/* Start Indexing the course page list */
 						 let openRequest = indexedDB.open("R306_course_structure",1);
 
