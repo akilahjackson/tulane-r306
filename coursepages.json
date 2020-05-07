@@ -1,73 +1,504 @@
 { "coursepage" : [
       {
-        "id": "1",
-        "pageName": "R306 Entry Page",
-        "pageParentname": "",
-        "pageParentURI": "../",
-        "endOfLesson": "no",
-        "endOfCourse": "no",
-		"nextPageID": "2",
-        "pageURI": "starthere.html"
-      },
-      {
-        "id": "2",
-        "pageName": "Learning Objectives",
-        "pageParentname": "Welcome to the Course",
-        "pageParentURI": "L0_T1_01.html",
-        "endOfLesson": "no",
-        "endOfCourse": "no",
-		"nextPageID": "3",
-        "pageURI": "L0_T1a_01.html"
-      },
-      {
-        "id": "3",
-        "pageName": "About The Author",
-        "pageParentname": "Welcome to the Course",
-        "pageParentURI": "L0_T1_01.html",
-        "endOfLesson": "no",
-        "endOfCourse": "no",
-		"nextPageID": "4",
-        "pageURI": "L0_T1_02.html"
-      },
-      {
-        "id": "4",
-        "pageName": "Technical Requirements",
-        "pageParentname": "Welcome to the Course",
-        "pageParentURI": "L0_T1_01.html",
-        "endOfLesson": "no",
-        "endOfCourse": "no",
-		"nextPageID": "5",
-        "pageURI": "L0_T2_01.html"
-      },
-      {
-        "id": "5",
-        "pageName": "Navigational Tips",
-        "pageParentname": "Welcome to the Course",
-        "pageParentURI": "L0_T1_01.html",
-        "endOfLesson": "no",
-        "endOfCourse": "no",
-		"nextPageID": "6",
-        "pageURI": "L0_T2_02.html"
-      },
-      {
-        "id": "6",
-        "pageName": "Additional Assistance",
-        "pageParentname": "Welcome to the Course",
-        "pageParentURI": "L0_T1_01.html",
-        "endOfLesson": "no",
-        "endOfCourse": "no",
-		"nextPageID": "7",
-        "pageURI": "L0_T2_03.html"
-      },
-      {
-        "id": "7",
-        "pageName": "Assessments",
-        "pageParentname": "Welcome to the Course",
-        "pageParentURI": "L0_T1_01.html",
-        "endOfLesson": "no",
-        "endOfCourse": "no",
-		"nextPageID": "8",
-        "pageURI": "L0_T3_01.html"
-      }
-    ]
+        
+    "id": 1,
+    "pageName": "R306 Entry Page",
+    "pageParentname": "Welcome to the Course",
+    "pageParentURI": "L1_T0_01.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 2,
+    "pageURI": "starthere.html"
+  },
+  {
+    "id": 2,
+    "pageName": "Learning Objectives",
+    "pageParentname": "Welcome to the Course",
+    "pageParentURI": "L0_T1_01.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 3,
+    "pageURI": "L0_T1a_01.html"
+  },
+  {
+    "id": 3,
+    "pageName": "About The Author",
+    "pageParentname": "Welcome to the Course",
+    "pageParentURI": "L0_T1_01.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 4,
+    "pageURI": "L0_T1_02.html"
+  },
+  {
+    "id": 4,
+    "pageName": "Technical Requirements",
+    "pageParentname": "Welcome to the Course",
+    "pageParentURI": "L0_T1_01.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 5,
+    "pageURI": "L0_T2_01.html"
+  },
+  {
+    "id": 5,
+    "pageName": "Navigational Tips",
+    "pageParentname": "Welcome to the Course",
+    "pageParentURI": "L0_T1_01.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 6,
+    "pageURI": "L0_T2_02.html"
+  },
+  {
+    "id": 6,
+    "pageName": "Additional Assistance",
+    "pageParentname": "Welcome to the Course",
+    "pageParentURI": "L0_T1_01.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 7,
+    "pageURI": "L0_T2_03.html"
+  },
+  {
+    "id": 7,
+    "pageName": "Assessments",
+    "pageParentname": "Welcome to the Course",
+    "pageParentURI": "L0_T1_01.html",
+    "endOfLesson": "yes",
+    "endOfCourse": "no",
+    "nextPageID": 8,
+    "pageURI": "L0_T3_01.html"
+  },
+  {
+    "id": 8,
+    "pageName": "Lesson 1 - Introduction to Medical Needs Sheltering",
+    "pageParentname": "Welcome to the Course",
+    "pageParentURI": "L0_T0_01.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 9,
+    "pageURI": "L1_T0_00.html"
+  },
+  {
+    "id": 9,
+    "pageName": "Topic 1 - What is a State Medical Needs Shelter (SMNS) ?",
+    "pageParentname": "Lesson 1 - Introduction to Medical Needs Sheltering",
+    "pageParentURI": "L1_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 10,
+    "pageURI": "L1_T1_01.html"
+  },
+  {
+    "id": 10,
+    "pageName": "Topic 2 - Who is Recieved into a State Medical Needs Shelter? (page 1)",
+    "pageParentname": "Lesson 1 - Introduction to Medical Needs Sheltering",
+    "pageParentURI": "L1_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 11,
+    "pageURI": "L1_T2_01.html"
+  },
+  {
+    "id": 11,
+    "pageName": "Topic 2 - Who is Recieved into a State Medical Needs Shelter? (page 2)",
+    "pageParentname": "Lesson 1 - Introduction to Medical Needs Sheltering",
+    "pageParentURI": "L1_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 12,
+    "pageURI": "L1_T2_02.html"
+  },
+  {
+    "id": 12,
+    "pageName": "Topic 3 - SMNS Locations (page 1)",
+    "pageParentname": "Lesson 1 - Introduction to Medical Needs Sheltering",
+    "pageParentURI": "L1_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 13,
+    "pageURI": "L1_T3_01.html"
+  },
+  {
+    "id": 13,
+    "pageName": "Topic 3 - SMNS Locations (page 2)",
+    "pageParentname": "Lesson 1 - Introduction to Medical Needs Sheltering",
+    "pageParentURI": "L1_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 14,
+    "pageURI": "L1_T3_02.html"
+  },
+  {
+    "id": 14,
+    "pageName": "Topic 4 - Activity Knowledge Check",
+    "pageParentname": "Lesson 1 - Introduction to Medical Needs Sheltering",
+    "pageParentURI": "L1_T0_00.html",
+    "endOfLesson": "yes",
+    "endOfCourse": "no",
+    "nextPageID": 15,
+    "pageURI": "L1_T4_01.html"
+  },
+  {
+    "id": 15,
+    "pageName": "Lesson 2 - State Medical Needs Shelter Team",
+    "pageParentname": "Welcome to the Course",
+    "pageParentURI": "L0_T0_01.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 16,
+    "pageURI": "L2_T0_00.html"
+  },
+  {
+    "id": 16,
+    "pageName": "Topic 1 - SMNS Organizational Chart",
+    "pageParentname": "Lesson 2 - State Medical Needs Shelter Team",
+    "pageParentURI": "L2_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 17,
+    "pageURI": "L2_T1_01.html"
+  },
+  {
+    "id": 17,
+    "pageName": "Topic 2 - Non-Medical Job Responsibilities",
+    "pageParentname": "Lesson 2 - State Medical Needs Shelter Team",
+    "pageParentURI": "L2_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 18,
+    "pageURI": "L2_T2_01.html"
+  },
+  {
+    "id": 18,
+    "pageName": "Topic 3 - Medical Job Responsibilities",
+    "pageParentname": "Lesson 2 - State Medical Needs Shelter Team",
+    "pageParentURI": "L2_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 19,
+    "pageURI": "L2_T3_01.hmtl"
+  },
+  {
+    "id": 19,
+    "pageName": "Topic 4 - Activity Knowledge Check",
+    "pageParentname": "Lesson 2 - State Medical Needs Shelter Team",
+    "pageParentURI": "L2_T0_00.html",
+    "endOfLesson": "yes",
+    "endOfCourse": "no",
+    "nextPageID": 20,
+    "pageURI": "L2_T4_01.html"
+  },
+  {
+    "id": 20,
+    "pageName": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentname": "Welcome to the Course",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 21,
+    "pageURI": "L3_T0_00.html"
+  },
+  {
+    "id": 21,
+    "pageName": "Topic 1 - Activation (page 1)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 22,
+    "pageURI": "L3_T1_01.html"
+  },
+  {
+    "id": 22,
+    "pageName": "Topic 1 - Activation (page 2)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 23,
+    "pageURI": "L3_T1_02.html"
+  },
+  {
+    "id": 23,
+    "pageName": "Topic 1 - Activation (page 3)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 24,
+    "pageURI": "L3_T1_03.html"
+  },
+  {
+    "id": 24,
+    "pageName": "Topic 1 - Activation (page 4)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 25,
+    "pageURI": "L3_T1_04.html"
+  },
+  {
+    "id": 25,
+    "pageName": "Topic 1 - Activation (page 5)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 26,
+    "pageURI": "L3_T1_05.html"
+  },
+  {
+    "id": 26,
+    "pageName": "Topic 1 - Activation (page 6)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 27,
+    "pageURI": "L3_T1_06.html"
+  },
+  {
+    "id": 27,
+    "pageName": "Topic 1 - Activation (page 7)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 28,
+    "pageURI": "L3_T1_07.html"
+  },
+  {
+    "id": 28,
+    "pageName": "Topic 1 - Activation (page 8)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 29,
+    "pageURI": "L3_T1_08.html"
+  },
+  {
+    "id": 29,
+    "pageName": "Topic 2 - Special Areas",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 30,
+    "pageURI": "L3_T2_01.html"
+  },
+  {
+    "id": 30,
+    "pageName": "Topic 3 - Triage & Admissions (page 1)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 31,
+    "pageURI": "L3_T3_01.html"
+  },
+  {
+    "id": 31,
+    "pageName": "Topic 3 - Triage & Admissions (page 2)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 32,
+    "pageURI": "L3_T3_02.html"
+  },
+  {
+    "id": 32,
+    "pageName": "Topic 3 - Triage & Admissions (page 3)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 33,
+    "pageURI": "L3_T3_03.html"
+  },
+  {
+    "id": 33,
+    "pageName": "Topic 3 - Triage & Admissions (page 4)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 34,
+    "pageURI": "L3_T3_04.html"
+  },
+  {
+    "id": 34,
+    "pageName": "Topic 3 - Triage & Admissions (page 5)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 35,
+    "pageURI": "L3_T4_05.html"
+  },
+  {
+    "id": 35,
+    "pageName": "Topic 3 - Triage & Admissions (page 6)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 36,
+    "pageURI": "L3_T3_06.html"
+  },
+  {
+    "id": 36,
+    "pageName": "Topic 4 - Important Requirements (page 1)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 37,
+    "pageURI": "L3_T4_01.html"
+  },
+  {
+    "id": 37,
+    "pageName": "Topic 4 - Important Requirements (page 2)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 38,
+    "pageURI": "L3_T4_02.html"
+  },
+  {
+    "id": 38,
+    "pageName": "Topic 4 - Important Requirements (page 3)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 39,
+    "pageURI": "L3_T4_03.html"
+  },
+  {
+    "id": 39,
+    "pageName": "Topic 5 - Deactivation (page 1)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 40,
+    "pageURI": "L3_T5_01.html"
+  },
+  {
+    "id": 40,
+    "pageName": "Topic 5 - Deactivation (page 2)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 41,
+    "pageURI": "L3_T5_02.html"
+  },
+  {
+    "id": 41,
+    "pageName": "Topic 5 - Deactivation (page 3)",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 42,
+    "pageURI": "L3_T5_03.html"
+  },
+  {
+    "id": 42,
+    "pageName": "Topic 6 - Acitvity Knowledge Check",
+    "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
+    "pageParentURI": "L3_T0_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 43,
+    "pageURI": "L3_T6_01.html"
+  },
+  {
+    "id": 43,
+    "pageName": "Lesson 4 - Forms",
+    "pageParentname": "Welcome to the Course",
+    "pageParentURI": "L0_T0_01.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 44,
+    "pageURI": "L4_T0_00.html"
+  },
+  {
+    "id": 44,
+    "pageName": "Topic 1 - Forms",
+    "pageParentname": "Lesson 4 - Forms",
+    "pageParentURI": "L4_T4_00.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 45,
+    "pageURI": "L4_T1_01.html"
+  },
+  {
+    "id": 45,
+    "pageName": "Topic 2 - Activity Knowledge Check",
+    "pageParentname": "Lesson 4 - Forms",
+    "pageParentURI": "L4_T4_00.html",
+    "endOfLesson": "yes",
+    "endOfCourse": "no",
+    "nextPageID": 46,
+    "pageURI": "L4_T2.01.html"
+  },
+  {
+    "id": 46,
+    "pageName": "Course Summary",
+    "pageParentname": "Course Summary",
+    "pageParentURI": "c1.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 47,
+    "pageURI": "c1.html"
+  },
+  {
+    "id": 47,
+    "pageName": "Acknowledgements",
+    "pageParentname": "Course Summary",
+    "pageParentURI": "c1.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 48,
+    "pageURI": "c1_01.html"
+  },
+  {
+    "id": 48,
+    "pageName": "Final Exam Instructions",
+    "pageParentname": "Course Summary",
+    "pageParentURI": "c1.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 49,
+    "pageURI": "c1_02.html"
+  },
+  {
+    "id": 49,
+    "pageName": "Printing Your Certificate",
+    "pageParentname": "Course Summary",
+    "pageParentURI": "c1.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 50,
+    "pageURI": "c1_03.html"
+  },
+  {
+    "id": 50,
+    "pageName": "Complete",
+    "pageParentname": "Course Summary",
+    "pageParentURI": "c1.html",
+    "endOfLesson": "yes",
+    "endOfCourse": "yes",
+    "nextPageID": 50,
+    "pageURI": "complete.html"
+  }
+]
 }
