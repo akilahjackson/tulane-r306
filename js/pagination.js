@@ -4,6 +4,8 @@ var numberPerPage = 1;
 var numberOfPages = 1;
 var coursepages = '../coursepages.json';
 
+
+
 document.addEventListener('DOMContentLoaded',function(){
   
       // Add your code below this line
@@ -169,11 +171,11 @@ function drawList() {
 	
 									}*/
 	
-		var currentPageURI = page + '.html';
+		/*var currentPageURI = page + '.html';*/
 	
 		var	currentPage = pageList.filter(function(currentPages) 
 								  {
-							return currentPages.pageURI == currentPageURI;
+							return currentPages.pageURI == page;
 												
 								});
 		

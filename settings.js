@@ -10,19 +10,3 @@ if ('serviceWorker' in navigator) {
   });
 
 }
-
-
-function validateResponse(response) {
-  if (!response.ok) {
-    throw Error(response.statusText);
-  }
-  return response;
-}
-
-function readResponseAsJSON(response) {
-  return response.json();
-}
-
-function readResponseAsBlob(response) {
-  return response.blob();
-}
