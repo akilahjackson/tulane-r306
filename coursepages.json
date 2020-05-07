@@ -1,19 +1,28 @@
 { "coursepage" : [
       {
-        
-    "id": 1,
+    "id": 999999,
     "pageName": "R306 Entry Page",
-    "pageParentname": "Welcome to the Course",
-    "pageParentURI": "L1_T0_01.html",
+    "pageParentname": "Course Introduction",
+    "pageParentURI": "L0_T1_01.html",
+    "endOfLesson": "no",
+    "endOfCourse": "no",
+    "nextPageID": 1,
+    "pageURI": "starthere.html"
+  },
+	{
+    "id": 1,
+    "pageName": "Welcome to The Course",
+    "pageParentname": "Course Introduction",
+    "pageParentURI": "L0_T1_01.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
     "nextPageID": 2,
-    "pageURI": "starthere.html"
+    "pageURI": "L0_T1_01.html"
   },
   {
     "id": 2,
     "pageName": "Learning Objectives",
-    "pageParentname": "Welcome to the Course",
+    "pageParentname": "Course Introduction",
     "pageParentURI": "L0_T1_01.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -23,7 +32,7 @@
   {
     "id": 3,
     "pageName": "About The Author",
-    "pageParentname": "Welcome to the Course",
+    "pageParentname": "Course Introduction",
     "pageParentURI": "L0_T1_01.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -33,7 +42,7 @@
   {
     "id": 4,
     "pageName": "Technical Requirements",
-    "pageParentname": "Welcome to the Course",
+    "pageParentname": "Course Introduction",
     "pageParentURI": "L0_T1_01.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -43,7 +52,7 @@
   {
     "id": 5,
     "pageName": "Navigational Tips",
-    "pageParentname": "Welcome to the Course",
+    "pageParentname": "Course Introduction",
     "pageParentURI": "L0_T1_01.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -53,7 +62,7 @@
   {
     "id": 6,
     "pageName": "Additional Assistance",
-    "pageParentname": "Welcome to the Course",
+    "pageParentname": "Course Introduction",
     "pageParentURI": "L0_T1_01.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -63,7 +72,7 @@
   {
     "id": 7,
     "pageName": "Assessments",
-    "pageParentname": "Welcome to the Course",
+    "pageParentname": "Course Introduction",
     "pageParentURI": "L0_T1_01.html",
     "endOfLesson": "yes",
     "endOfCourse": "no",
@@ -73,7 +82,7 @@
   {
     "id": 8,
     "pageName": "Lesson 1 - Introduction to Medical Needs Sheltering",
-    "pageParentname": "Welcome to the Course",
+    "pageParentname": "Course Introduction",
     "pageParentURI": "L0_T0_01.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -143,7 +152,7 @@
   {
     "id": 15,
     "pageName": "Lesson 2 - State Medical Needs Shelter Team",
-    "pageParentname": "Welcome to the Course",
+    "pageParentname": "Course Introduction",
     "pageParentURI": "L0_T0_01.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -193,7 +202,7 @@
   {
     "id": 20,
     "pageName": "Lesson 3 - Activation, Operations & Deactivation",
-    "pageParentname": "Welcome to the Course",
+    "pageParentname": "Course Introduction",
     "pageParentURI": "L3_T0_00.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -423,7 +432,7 @@
   {
     "id": 43,
     "pageName": "Lesson 4 - Forms",
-    "pageParentname": "Welcome to the Course",
+    "pageParentname": "Course Introduction",
     "pageParentURI": "L0_T0_01.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -452,8 +461,8 @@
   },
   {
     "id": 46,
-    "pageName": "Course Summary",
-    "pageParentname": "Course Summary",
+    "pageName": "Course Conclusion",
+    "pageParentname": "Course Conclusion",
     "pageParentURI": "c1.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -463,7 +472,7 @@
   {
     "id": 47,
     "pageName": "Acknowledgements",
-    "pageParentname": "Course Summary",
+    "pageParentname": "Course Conclusion",
     "pageParentURI": "c1.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -473,7 +482,7 @@
   {
     "id": 48,
     "pageName": "Final Exam Instructions",
-    "pageParentname": "Course Summary",
+    "pageParentname": "Course Conclusion",
     "pageParentURI": "c1.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -483,7 +492,7 @@
   {
     "id": 49,
     "pageName": "Printing Your Certificate",
-    "pageParentname": "Course Summary",
+    "pageParentname": "Course Conclusion",
     "pageParentURI": "c1.html",
     "endOfLesson": "no",
     "endOfCourse": "no",
@@ -493,7 +502,7 @@
   {
     "id": 50,
     "pageName": "Complete",
-    "pageParentname": "Course Summary",
+    "pageParentname": "Course Conclusion",
     "pageParentURI": "c1.html",
     "endOfLesson": "yes",
     "endOfCourse": "yes",
