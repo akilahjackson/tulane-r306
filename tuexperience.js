@@ -1,5 +1,4 @@
-	const pageList = new Array();
-	const list = new Array();
+
 	const TU_EXPERIENCE = 'TU-EXPERIENCE-CACHE';
 	const TU_EXPERIENCE_CACHE = [
 					'./c1.html',
@@ -30,6 +29,8 @@
 					'./images/c1P2/exam1.png',
 					'./images/diagnostics.png',
 					'./images/help.png',
+					'./images/icons/endoflesson.png',
+					'./images/icons/endofcourse.png',
 					'./images/icons/icon-128x128.png',
 					'./images/icons/icon-144x144.png',
 					'./images/icons/icon-152x152.png',
@@ -62,7 +63,6 @@
 					'./js/bootstrap-4.3.1.js',
 					'./js/jquery-3.3.1.min.js',
 					'./js/pagination.js',
-					'./js/pagination2.js',
 					'./js/popper.min.js',
 					'./js/svg-icons.js',
 					'./L0_T1_01.html',
@@ -218,20 +218,39 @@ self.addEventListener('install', event => {
 
 self.addEventListener('active', function(event) {
 	event.waitUnitl (
-	init_courseStructure()
-	);
-});
+				self.registration.unregister()
+					.then(function() {
+
+					  return self.clients.matchAll();
+
+					})
+					.then(function(clients) {
+
+					  clients.forEach(client => {
+
+						if (client.url && "navigate" in client){
+
+							client.navigate(client.url);
+						}
+
+					}
+							)
+	
+
+})
+
+	)});
 
 self.addEventListener('fetch', event => {
-  console.log('Fetch event for ', event.request.url);
+  //console.log('Fetch event for ', event.request.url);
   event.respondWith(
     caches.match(event.request)
     .then(response => {
       if (response) {
-        console.log('Found ', event.request.url, ' in cache');
+       // console.log('Found ', event.request.url, ' in cache');
         return response;
       }
-      console.log('Network request for ', event.request.url);
+     // console.log('Network request for ', event.request.url);
       return fetch(event.request)
 
       .then(response => {
@@ -253,94 +272,3 @@ self.addEventListener('fetch', event => {
     })
   );
 });
-
-
-
-
-function init_courseStructure () {
-	
-  fetch('./coursepages.json')
-    .then(function(response) { 
-	  
-	  pageList = response.json();
-	  console.log('from inside course structure' + pageList);
-  });
-	
-		
-	/* Start Indexing the course page list */
-						 let openRequest = indexedDB.open("R306_course_structure",1);
-
-								openRequest.onupgradeneeded = function() {
-									let db = openRequest.result;
-									let dbevent = event.target.result;
-									
-
-									if (!db.objectStoreNames.contains("coursepages")) { 
-									
-										var objectStore = db.createObjectStore("coursepages", {keyPath: "id"});
-										
-									    objectStore.createIndex("id","id", {unique: true});
-										objectStore.createIndex("pageName","pageName",{unique:false});
-										objectStore.createIndex("pageParentname","pageParentname",{unique:false});
-										objectStore.createIndex("pageParentURI","pageParentURI",{unique:false});
-										objectStore.createIndex("endOfLesson","endOfLesson",{unique:false});
-										objectStore.createIndex("endOfCourse","endOfCourse",{unique:false});
-										objectStore.createIndex("nextPageID","nextPageID",{unique:false});
-										objectStore.createIndex("pageURI","pageURI",{unique:false});
-
-										
-									};
-
-									console.log(dbevent);
-						
-									
-									
-										
-											let coursePagestransaction = event.target.transaction;
-									
-												/*var coursePagerequest = coursePagestransaction.objectStore("coursepages").add(pageList[0]);*/
-									
-											
-												
-												for (let r = 0; r < pageList.length; r++){
-													var coursePagerequest = coursePagestransaction.objectStore("coursepages").add(pageList[r]);
-													 let openRequest = indexedDB.open("R306_course_structure",r+1);
-
-														
-												}; 
-												
-												
-											
-									
-										coursePagerequest.onsuccess = function() {
-											console.log("Page added to the store", coursePagerequest.result);
-										};
-										
-										
-									
-										coursePagerequest.onerror = function(event) {
-											console.log("Error", coursePagerequest.error);
-											
-											if (coursePagerequest.error.name =="ConstraintError") {
-												console.log("Page with such ID already exists");
-												event.preventDefault();
-												event.stopPropagation;
-											}else{
-												
-											}
-										};
-											
-	
-									
-									db.onversionchange = function() {
-											db.close();
-											alert("Database is outdated, please reload the page.")
-										  };
-
-								
-
-								
-								
-								};
-	
-  }

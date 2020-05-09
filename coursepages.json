@@ -27,7 +27,7 @@
     "endOfLesson": "no",
     "endOfCourse": "no",
     "nextPageID": 3,
-    "pageURI": "L0_T1a_01.html"
+    "pageURI": "L0_T1_01a.html"
   },
   {
     "id": 3,
@@ -187,7 +187,7 @@
     "endOfLesson": "no",
     "endOfCourse": "no",
     "nextPageID": 19,
-    "pageURI": "L2_T3_01.hmtl"
+    "pageURI": "L2_T3_01.html"
   },
   {
     "id": 19,
@@ -424,7 +424,7 @@
     "pageName": "Topic 6 - Acitvity Knowledge Check",
     "pageParentname": "Lesson 3 - Activation, Operations & Deactivation",
     "pageParentURI": "L3_T0_00.html",
-    "endOfLesson": "no",
+    "endOfLesson": "yes",
     "endOfCourse": "no",
     "nextPageID": 43,
     "pageURI": "L3_T6_01.html"
@@ -457,7 +457,7 @@
     "endOfLesson": "yes",
     "endOfCourse": "no",
     "nextPageID": 46,
-    "pageURI": "L4_T2.01.html"
+    "pageURI": "L4_T2_01.html"
   },
   {
     "id": 46,
