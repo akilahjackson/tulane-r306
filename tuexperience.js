@@ -197,6 +197,8 @@
 					'./Lesson4/L4_T1_01.html',
 					'./Lesson4/L4_T2_01.html',
 					'./manifest.json',
+					'./index.js',
+					'./settings.js',
 					'./R306_start.png',
 					'./starthere.html'
 				
@@ -204,6 +206,7 @@
 
 
 self.addEventListener('install', event => {
+	
   console.log('Installing course assests');
   event.waitUntil(
     caches.open(TU_EXPERIENCE)

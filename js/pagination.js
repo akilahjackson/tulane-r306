@@ -1,7 +1,7 @@
 var pageList = new Array();
 var currentPage = 1;
-var numberPerPage = 1;
-var numberOfPages = 1;
+//var numberPerPage = 1;
+//var numberOfPages = 1;
 var coursepages = '../coursepages.json';
 
 
@@ -10,7 +10,6 @@ let dbVersion = 1;
 
 
 					document.addEventListener('DOMContentLoaded',function(){
-
 						  // Add your code below this line
 						 const req = new XMLHttpRequest();
 						
@@ -20,7 +19,7 @@ let dbVersion = 1;
 						req.setRequestHeader('content-type', 'application/json');
 
 						  req.send();
-						  req.onload=function(){ var json=JSON.parse(req.responseText);list.push = json; numberOfPages = getNumberOfPages();
+						  req.onload=function(){ var json=JSON.parse(req.responseText);list.push = json; //numberOfPages = getNumberOfPages();
 
 						pageList = Object.values(list.push.coursepage);
 						
@@ -74,7 +73,7 @@ let dbVersion = 1;
 											
 									
 										coursePagerequest.onsuccess = function() {
-											console.log("... " + coursePagerequest.result + " pages added to the learning experience.");
+											console.log("... " + coursePagerequest.result + " pages added to the learning environment.");
 										};
 										
 										
@@ -109,22 +108,19 @@ let dbVersion = 1;
 	
 
 function makeList() {
-	for (x = 0; x < 200; x++)
-        list.push(x);
 	
 pageList = Object.values(list.push.coursepage);
 	
- numberOfPages = getNumberOfPages();
+ //numberOfPages = getNumberOfPages();
 }
 
 
-function getNumberOfPages() {
+/*function getNumberOfPages() {
     return Math.ceil(list.length / numberPerPage);
-}
+}*/
 
  function nextPage() {
-	 currentPage += 1;
-	 	check();
+	
 	 
 	 var path = window.location.pathname;
 	var page = path.split("/").pop();
@@ -178,9 +174,7 @@ function getNumberOfPages() {
 }
 
 function previousPage() {
-	
-	 currentPage -= 1;
-    	check();
+    
 	
 	 var path = window.location.pathname;
 	var page = path.split("/").pop();
@@ -192,7 +186,7 @@ function previousPage() {
 												
 								});
 		
-	var retrievePreviouspage = currentPager[0].nextPageID - 1;
+	var retrievePreviouspage = (currentPager[0].id) -1;
 	
 		var previousPager = pageList.filter(function(currentPages) 
 								  {
@@ -200,15 +194,39 @@ function previousPage() {
 												
 								});
 	 
-	 location.assign("./"+ previousPager[0].pageURI);
+	 let courseSwitch = (previousPager[0].pageURI).substring(0,2);
+	 
+	 
+	 
+	 switch (courseSwitch) {
+		 case "L0":
+			 location.assign("./"+ nextPager[0].pageURI);
+			 break;
+		 case "L1":
+			 location.assign("../Lesson1/"+ nextPager[0].pageURI);
+			 break;
+		 case "L2":
+			 location.assign("../Lesson2/"+ nextPager[0].pageURI);
+			 break;
+		 case "L3":
+			 location.assign("../Lesson3/"+ nextPager[0].pageURI);
+			 break;
+		 case "L4":
+			 location.assign("../Lesson4/"+ nextPager[0].pageURI);
+			 break;
+		 default:
+			 location.assign("../"+ nextPager[0].pageURI);
+			 break;
+			 
+	 };
 	 
 	
    
 }
 
 function firstPage() {
-	 currentPage = 1;
-    	check();
+	 
+    	
  
 	location.assign("../starthere.html");
   
@@ -216,18 +234,17 @@ function firstPage() {
 
 function lastPage() {
 	
-	 currentPage = numberOfPages;
-   		check();
+	
+   	
   
     location.assign("../complete.html");
 }
 
 function loadList() {
-   var begin = ((currentPage - 1) * numberPerPage);
-   var end = begin + numberPerPage;
+
 	
 	drawList();
-    check();
+    
 	
 	
 
@@ -377,13 +394,6 @@ function drawList() {
 
 	
 
-function check() {
-    document.getElementById("next").disabled = currentPage == numberOfPages ? true : false;
-    document.getElementById("previous").disabled = currentPage == 1 ? true : false;
-    document.getElementById("first").disabled = currentPage == 1 ? true : false;
-    document.getElementById("last").disabled = currentPage == numberOfPages ? true : false;
-}
-
 	
 function load() {
 	
@@ -391,5 +401,6 @@ function load() {
     makeList();
     loadList();
 }
+
 
 window.onload = load;
