@@ -1,9 +1,5 @@
 var pageList = new Array();
-var currentPage = 1;
-//var numberPerPage = 1;
-//var numberOfPages = 1;
 var coursepages = '../coursepages.json';
-
 
 let dbVersion = 1;
 					
@@ -110,14 +106,9 @@ let dbVersion = 1;
 function makeList() {
 	
 pageList = Object.values(list.push.coursepage);
-	
- //numberOfPages = getNumberOfPages();
+
 }
 
-
-/*function getNumberOfPages() {
-    return Math.ceil(list.length / numberPerPage);
-}*/
 
  function nextPage() {
 	
@@ -186,7 +177,13 @@ function previousPage() {
 												
 								});
 		
-	var retrievePreviouspage = (currentPager[0].id) -1;
+	var retrievePreviouspage = ((currentPager[0].id) - 1);
+	console.log (retrievePreviouspage);
+	
+	if (retrievePreviouspage == 0) {
+			
+		document.getElementById("previous").className += "disabled";
+	}
 	
 		var previousPager = pageList.filter(function(currentPages) 
 								  {
@@ -200,22 +197,22 @@ function previousPage() {
 	 
 	 switch (courseSwitch) {
 		 case "L0":
-			 location.assign("./"+ nextPager[0].pageURI);
+			 location.assign("./"+ previousPager[0].pageURI);
 			 break;
 		 case "L1":
-			 location.assign("../Lesson1/"+ nextPager[0].pageURI);
+			 location.assign("../Lesson1/"+ previousPager[0].pageURI);
 			 break;
 		 case "L2":
-			 location.assign("../Lesson2/"+ nextPager[0].pageURI);
+			 location.assign("../Lesson2/"+ previousPager[0].pageURI);
 			 break;
 		 case "L3":
-			 location.assign("../Lesson3/"+ nextPager[0].pageURI);
+			 location.assign("../Lesson3/"+ previousPager[0].pageURI);
 			 break;
 		 case "L4":
-			 location.assign("../Lesson4/"+ nextPager[0].pageURI);
+			 location.assign("../Lesson4/"+ previousPager[0].pageURI);
 			 break;
 		 default:
-			 location.assign("../"+ nextPager[0].pageURI);
+			 location.assign("../"+ previousPager[0].pageURI);
 			 break;
 			 
 	 };
@@ -244,10 +241,22 @@ function loadList() {
 
 	
 	drawList();
-    
+    check();
 	
 	
 
+}
+
+function check() {
+	if (window.location.pathname.split("/").pop() == "L0_T1_01.html") {
+		
+		document.getElementById("previous").disabled = true;
+	}
+	
+	if (window.location.pathname.split("/").pop() == "complete.html") {
+		
+		document.getElementById("next").disabled = true;
+	}
 }
 
 function drawList() {

@@ -4,8 +4,33 @@ import { tu_experience } from './settings.js';
 
 tu_experience ('start');
 
-// Establish Communications
+//Initialize Course Structure
 
-import { tu_ws1 } from './messaging.js';
+//import { loadCoursepages } from '../js/pagination.js';
 
-tu_ws1('ATC').onOpen = " This world needs and enema";
+//import { buildCourseStructure } from './coursepages.js';
+
+// Add Pagination
+
+//import { firstPage } from '../js/pagination.js';
+
+
+
+//import { previousPage } from '../js/pagination.js';
+
+
+
+//import { nextPage } from '../js/pagination.js';
+
+
+
+//import { lastPage } from '../js/pagination.js';
+
+
+
+// Add Breadcrumbs
+
+// Course Bookmarks
+
+
+debugger;

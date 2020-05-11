@@ -241,6 +241,85 @@ self.addEventListener('active', function(event) {
 	
 
 })
+		
+		
+		
+/*var dbVersion = 1;
+
+let openRequest = indexedDB.open("R306_course_structure",dbVersion);
+
+								openRequest.onupgradeneeded = function() {
+									let db = openRequest.result;
+									let dbevent = event.target.result;
+									
+
+									if (!db.objectStoreNames.contains("coursepages")) { 
+									
+										var objectStore = db.createObjectStore("coursepages", {keyPath: "id"});
+										
+									    objectStore.createIndex("id","id", {unique: true});
+										objectStore.createIndex("pageName","pageName",{unique:false});
+										objectStore.createIndex("pageParentname","pageParentname",{unique:false});
+										objectStore.createIndex("pageParentURI","pageParentURI",{unique:false});
+										objectStore.createIndex("endOfLesson","endOfLesson",{unique:false});
+										objectStore.createIndex("endOfCourse","endOfCourse",{unique:false});
+										objectStore.createIndex("nextPageID","nextPageID",{unique:false});
+										objectStore.createIndex("pageURI","pageURI",{unique:false});
+
+										
+									};
+
+									
+						
+									
+									
+										
+											let coursePagestransaction = event.target.transaction;
+									
+										
+												
+												for (let r = 0; r < pageList.length; r++){
+													var coursePagerequest = coursePagestransaction.objectStore("coursepages").add(pageList[r]);
+													 let openRequest = indexedDB.open("R306_course_structure",dbVersion);
+
+														
+												}; 
+												
+												
+											
+									
+										coursePagerequest.onsuccess = function() {
+											console.log("... " + coursePagerequest.result + " pages added to the learning environment.");
+										};
+										
+										
+									
+										coursePagerequest.onerror = function(event) {
+											console.log("Error", coursePagerequest.error);
+											
+											if (coursePagerequest.error.name =="ConstraintError") {
+												console.log("Page with such ID already exists");
+												event.preventDefault();
+												event.stopPropagation;
+											}else{
+												
+											}
+										};
+											
+	
+									
+									db.onversionchange = function() {
+											db.close();
+											alert("Database is outdated, please reload the page.")
+										  };
+
+								
+
+								
+								
+								}; */
+	
+	
 
 	)});
 
