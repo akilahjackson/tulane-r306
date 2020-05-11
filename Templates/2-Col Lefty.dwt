@@ -144,9 +144,9 @@ R306 - Medical Needs Sheltering
 			<div class="row">
 			<div class="col-md-12">	  
 			  <nav aria-label="breadcrumb">
-			    <ol class="breadcrumb animated fadeInLeftBig delay-3s">
-			      <li class="breadcrumb-item"><a href="#"><!-- TemplateBeginEditable name="lesson_name" -->ADD LESSON NAME<!-- TemplateEndEditable --></a></li>
-			      <li class="breadcrumb-item"><a href="#"><!-- TemplateBeginEditable name="topic_title" -->ADD TOPIC TTLE <!-- TemplateEndEditable --></a></li>
+			  <ol class="breadcrumb animated fadeInLeftBig delay-3s">
+			      <li class="breadcrumb-item"><a id="parentpage_breadcrumb"><!-- TemplateBeginEditable name="lesson_name" -->ADD LESSON NAME<!-- TemplateEndEditable --></a></li>
+			      <li class="breadcrumb-item"><a id="currentpage_breadcrumb"><!-- TemplateBeginEditable name="topic_title" -->ADD TOPIC TTLE <!-- TemplateEndEditable --></a></li>
 			      <li class="breadcrumb-item active" aria-current="page"><!-- TemplateBeginEditable name="page_number" -->ADD PAGE NUMBER<!-- TemplateEndEditable --></li>
 		        </ol>
 	        </nav>
@@ -169,7 +169,7 @@ R306 - Medical Needs Sheltering
 		
 <!--- START MAIN CONTENT -->
        
-      <div class="row animated fadeInDown delay-4s">
+      <div class="row animated  p-4 mb-3 fadeInDown delay-4s">
         <div class="col-md-8">
 
           <!-- TemplateBeginEditable name="Main Content" -->
