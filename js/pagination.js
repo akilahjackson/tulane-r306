@@ -1,6 +1,7 @@
 var pageList = new Array();
 var coursepages = '../coursepages.json';
 
+
 let dbVersion = 1;
 					
 
@@ -106,7 +107,26 @@ let dbVersion = 1;
 function makeList() {
 	
 pageList = Object.values(list.push.coursepage);
-
+	
+	 
+	var path = window.location.pathname;
+	var page = path.split("/").pop();
+		
+	
+		var	currentPager = pageList.filter(function(currentPages) 
+								  {
+							return currentPages.pageURI == page;
+												
+								});
+	let parentPage_breadcrumb = "./" + currentPager[0].pageParentURI;
+	
+	document.getElementById("parentpage_breadcrumb").setAttribute("href", parentPage_breadcrumb);
+	
+	let currentPage_breadcrumb ="."+ path;
+	
+	document.getElementById("currentpage_breadcrumb").setAttribute("href",currentPage_breadcrumb);
+	
+	
 }
 
 
@@ -397,7 +417,8 @@ function drawList() {
 	 
        document.getElementById("list").appendChild(div);
 		}
-
+	
+	
 
     }
 
